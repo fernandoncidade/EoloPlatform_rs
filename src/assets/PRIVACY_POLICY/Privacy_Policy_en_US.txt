@@ -1,0 +1,139 @@
+PRIVACY POLICY — EOLO PLATFORM
+Last updated: November 11, 2026
+Version: 2026.11.11.0
+Data Controller: Fernando Nillsson Cidade (Natural Person, Brazil)
+Official Privacy & Support Contact: linceu_lighthouse@outlook.com
+
+================================================================================
+1. DATA CONTROLLER IDENTIFICATION, ACADEMIC PURPOSE & LOCAL-FIRST PHILOSOPHY
+================================================================================
+
+This Privacy Policy governs data processing in the use of Eolo Platform ("Software" or "Application"), in strict compliance with the Brazilian General Data Protection Law (LGPD — Brazilian Federal Law No. 13,709/2018), the Brazilian Civil Rights Framework for the Internet (Law No. 12,965/2014), the European Union General Data Protection Regulation (GDPR — Regulation EU 2016/679), and Microsoft Store Policy 10.5.1 for Windows desktop applications.
+
+EXCLUSIVELY ACADEMIC STUDY SCOPE & ERROR RISK:
+Eolo Platform is a desktop application developed EXCLUSIVELY FOR ACADEMIC STUDY, EDUCATION, AND DIDACTIC SIMULATION. The Software may contain calculation or programming errors and DOES NOT serve as definitive software for decision-making in production environments, civil construction, or commercial workplaces; manual verification of all results (against officially acquired standard copies) and/or cross-checking via consolidated market tools is mandatory. Pursuant to the Brazilian Civil Code (Arts. 186, 393, 421, 927, and 945), the Brazilian CDC (Arts. 6(III), 14(§3)(II), and 31, preserving non-waivable consumer rights under Arts. 24, 25, 49, and 51(I) and Law No. 9,609/1998), and international conventions ("AS IS" / "WITH ALL FAULTS"), the data controller and author is exempt from legal liability for real-world or definitive production use outside the declared academic purpose.
+
+Eolo Platform was engineered under a strict Local-First and Zero-Telemetry paradigm. All academic simulations, didactic parameters, and study reports are processed exclusively on the user's local workstation. The Software operates without proprietary cloud servers, conducts zero behavioral analytics, and transmits no user data to the developer or third parties.
+
+================================================================================
+2. CATEGORIES OF DATA PROCESSED LOCALLY IN THE APPLICATION
+================================================================================
+
+To perform wind action calculations and generate formal structural engineering reports, the Software processes in volatile memory (RAM) the information actively entered by the user within the calculation tabs and project settings dialog:
+
+a) TECHNICAL & PROJECT IDENTIFICATION DATA:
+ - Project title and identification;
+ - Structural engineer or responsible technical designer name;
+ - Professional license and ART/RRT registration number (CREA/CAU);
+ - Client or contracting organization name;
+ - City and State (UF) of building construction site.
+
+b) STRUCTURAL, GEOMETRIC & AERODYNAMIC PARAMETERS:
+ - Building geometry (clear span b, length a, eave height h, roof pitch θ);
+ - Basic wind speed (V0), topographic factor (S1), terrain roughness factor (S2), and statistical factor (S3);
+ - Opening areas, permeability ratios, and aerodynamic coefficients (Cpe, Cpi).
+
+NOTICE REGARDING THIRD-PARTY PERSONAL DATA:
+The structural engineer name, professional CREA/ART license number, and client name entered into the system may constitute personal data under the LGPD and GDPR. Such data is provided at the sole discretion of the user, remains strictly within the local runtime memory of the application, and is output only into reports and export files deliberately saved by the user.
+
+================================================================================
+3. LOCAL FILE STORAGE & INSTALLER CONFIGURATION
+================================================================================
+
+3.1. PROJECT & REPORT STORAGE:
+In version 2026.11.8.0, the Software performs zero background or automated hidden file writes. Disk writes occur exclusively when the user manually triggers the "Save Project (.json)" command, exports calculation reports in HTML, Markdown, or JSON, or designates an output file via the CLI utility (eolo-cli --output). Files are saved strictly to the folder and drive chosen by the user.
+
+3.2. DIRECT INSTALLER LANGUAGE CONFIGURATION:
+If the application is installed via the direct standalone installer (Inno Setup), the setup wizard records a local configuration file containing solely the selected UI language code ("pt_BR" or "en_US") at %APPDATA%\EoloPlatform\language_config.json. Upon uninstallation, this directory and the associated local application data directory (%LOCALAPPDATA%\EoloPlatform) are completely removed.
+
+3.3. FUTURE LOCAL DATABASE PERSISTENCE:
+The codebase includes structured support for local SQLite persistence stored at %APPDATA%\EoloPlatform\eolo_data.db. If enabled in future releases, the database operates in a strictly disconnected, local manner under the user's custody.
+
+================================================================================
+4. EXTERNAL HYPERLINKS IN THE USER INTERFACE
+================================================================================
+
+The "About Eolo Platform" window (Help menu) provides clickable reference links to the official websites of open-source components and applicable standards:
+ - Rust Programming Language (https://www.rust-lang.org)
+ - egui & eframe (https://github.com/emilk/egui)
+ - SQLite (https://www.sqlite.org) and rusqlite (https://github.com/rusqlite/rusqlite)
+ - Serde (https://serde.rs) and rfd (https://github.com/PolyMeilex/rfd)
+ - ABNT (https://www.abnt.org.br)
+
+Clicking any hyperlink causes the Software to invoke the operating system's default web browser. The Software transmits zero user parameters or contextual data to the destination. Subsequent browsing is governed exclusively by the privacy policies of the respective external websites.
+
+================================================================================
+5. TECHNICAL SUPPORT COMMUNICATIONS VIA E-MAIL
+================================================================================
+
+5.1. DATA COLLECTED DURING SUPPORT:
+When a user contacts official technical support at linceu_lighthouse@outlook.com, the developer receives and processes the sender's e-mail address, the display name provided in the message headers, and the body of the message, including any attachments or diagnostic calculation reports forwarded.
+
+5.2. PURPOSES & LEGAL BASES (LGPD, ART. 7, ITEMS V & IX; GDPR, ART. 6(1)(B) & (F)):
+The processing of support data is strictly limited to:
+ - a) Answering technical inquiries, providing operational assistance, and resolving issues;
+ - b) Fulfilling technical service obligations during the technical validity period under Article 8 of Brazilian Law No. 9,609/1998;
+ - c) The regular exercise of rights in judicial or administrative proceedings.
+Applicable legal bases under LGPD: contract execution or preliminary procedures (Art. 7, V) and controller legitimate interest (Art. 7, IX).
+
+5.3. DATA RETENTION & NON-DISCLOSURE:
+E-mails are archived solely for the duration reasonably necessary to conclude the support inquiry and satisfy statutory limitation periods. The developer does not sell, rent, or disclose technical support data to third parties for marketing.
+
+================================================================================
+6. COMMERCIAL DISTRIBUTION VIA MICROSOFT STORE & PLATFORM TELEMETRY
+================================================================================
+
+6.1. BILLING & ACCOUNT OPERATIONS BY MICROSOFT:
+For copies acquired through the Microsoft Store, all financial transactions, billing operations, payment processing, invoice generation, and account authentication are managed directly by Microsoft Corporation as an independent data controller under the Microsoft Store Terms of Sale and the Microsoft Privacy Statement: https://www.microsoft.com/pt-br/privacy/privacystatement
+
+6.2. AGGREGATED DEVELOPER REPORTS IN PARTNER CENTER:
+The developer has access only to aggregated, anonymized analytical reports provided by Microsoft Partner Center (such as units acquired by territory and aggregated operating system crash health logs). The Eolo Platform binary itself contains zero embedded third-party telemetry or analytics SDKs.
+
+================================================================================
+7. PUBLIC GITHUB REPOSITORY INTERACTIONS
+================================================================================
+
+The public open-source repository of Eolo Platform is hosted on GitHub (https://github.com/fernandoncidade). When filing Issues, submitting Pull Requests, or engaging in repository discussions, users must recognize that such postings are public and governed by GitHub's Privacy Statement. Users are strongly advised never to post personal data, client-confidential engineering designs, or proprietary files.
+
+================================================================================
+8. SECURITY MEASURES & SOVEREIGN USER CONTROL
+================================================================================
+
+8.1. ENDPOINT WORKSTATION SECURITY (LGPD, ART. 46):
+Because all engineering data remains local, the security of project files depends on the user's workstation environment. Users are encouraged to implement standard security measures, including full-disk encryption (BitLocker), strong account passwords, up-to-date antivirus protection, and regular backups.
+
+8.2. ABSOLUTE DATA CONTROL & DELETION:
+Users retain absolute control to modify or delete any project file (.json), report (.html, .md), or installer preference file generated by the Software at any time, as well as to completely uninstall the application via Windows 11 "Installed Apps".
+
+================================================================================
+9. DATA SUBJECT RIGHTS (LGPD, ART. 18 & GDPR)
+================================================================================
+
+As a data subject regarding direct support communications, users may exercise the following rights at any time by sending an e-mail to linceu_lighthouse@outlook.com:
+ - I. Confirmation of the existence of data processing;
+ - II. Access to archived records associated with their support inquiries;
+ - III. Correction of incomplete, inaccurate, or outdated data;
+ - IV. Anonymization, blocking, or deletion of unnecessary or non-compliant data;
+ - V. Deletion of personal data processed with consent;
+ - VI. Information regarding entities with which the controller has shared data (noting the absence of commercial sharing by the developer);
+ - VII. Revocation of consent previously provided.
+
+Data subjects also hold the statutory right to petition the Brazilian National Data Protection Authority (ANPD) or relevant European supervisory authorities.
+
+================================================================================
+10. CHILDREN'S PRIVACY (LGPD, ART. 14) & ACADEMIC STUDY SCOPE
+================================================================================
+
+Eolo Platform is an educational academic-study software application in civil and structural engineering, and is not directed at or intended for children under 13 years of age. The controller does not knowingly collect personal data from children or adolescents. Project or identification data entered locally serves exclusively for academic study simulations; as reiterated throughout the documentation, the application may contain errors and requires manual checking or validation through consolidated tools before any real-world engineering work by a licensed engineer.
+
+================================================================================
+11. POLICY UPDATES & CONTACT INFORMATION
+================================================================================
+
+This Privacy Policy may be updated periodically to reflect technical enhancements or changes in legal requirements. Updates will be documented in project releases and displayed within the "Privacy" tab of the About window.
+
+For questions, requests, or notices regarding privacy and data protection, please contact the official channel:
+
+Fernando Nillsson Cidade
+Official E-mail: linceu_lighthouse@outlook.com
+Official Repository: https://github.com/fernandoncidade

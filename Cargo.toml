@@ -1,0 +1,45 @@
+[package]
+name = "eolo_rs"
+version = "2026.11.11"
+edition = "2021"
+description = "Eolo Platform — Plataforma Especializada de Ações de Vento em Edificações e Coberturas (ABNT NBR 6123:2023)"
+authors = ["Fernando Nillsson Cidade <linceu_lighthouse@outlook.com>"]
+license = "AGPL-3.0-only"
+repository = "https://github.com/fernandoncidade"
+build = "src/build.rs"
+
+[lib]
+name = "eolo_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "eolo"
+path = "src/main.rs"
+
+[[bin]]
+name = "eolo-cli"
+path = "src/bin/main_cli.rs"
+
+[dependencies]
+eframe = "0.37.0"
+egui = "0.37.0"
+image = { version = "0.25.10", default-features = false, features = ["ico", "png"] }
+rusqlite = { version = "0.41.0", features = ["bundled"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+chrono = { version = "0.4.45", features = ["serde"] }
+rfd = "0.17.2"
+windows-sys = { version = "0.61.2", features = [
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Shell",
+    "Win32_System_Console"
+] }
+
+[build-dependencies]
+winres = "0.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true

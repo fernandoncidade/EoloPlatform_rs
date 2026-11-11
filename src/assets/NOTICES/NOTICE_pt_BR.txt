@@ -1,0 +1,131 @@
+AVISOS DE SOFTWARE DE TERCEIROS (THIRD-PARTY SOFTWARE NOTICES)
+==============================================================
+
+Eolo Platform (versão 2026.11.11.0), 8 de novembro de 2026
+Autor do Projeto: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Suporte Oficial: linceu_lighthouse@outlook.com
+
+O Eolo Platform incorpora e utiliza componentes de software de terceiros do ecossistema Rust, todos licenciados sob termos permissivos de código aberto ou dedicados ao domínio público. Abaixo encontram-se os avisos de direitos autorais, atribuições e termos aplicáveis a cada componente:
+
+------------------------------------------------------------------------
+1. LINGUAGEM RUST E BIBLIOTECA PADRÃO (rustc / std)
+------------------------------------------------------------------------
+Copyright (c) The Rust Project Developers
+Licença: MIT License / Apache License, Version 2.0
+Website: https://www.rust-lang.org
+
+------------------------------------------------------------------------
+2. MOTOR GRÁFICO IMEDIATO: egui, eframe, epaint, emath, ecolor
+------------------------------------------------------------------------
+Copyright (c) 2018-2026 Emil Ernerfeldt <emil.ernerfeldt@gmail.com> e colaboradores
+Licença: MIT License / Apache License, Version 2.0
+Repositório: https://github.com/emilk/egui
+
+Fontes Tipográficas Embutidas (epaint_default_fonts):
+ - Ubuntu Font (Regular e Light): Copyright 2010 Canonical Ltd. Licenciado sob a Ubuntu Font Licence Version 1.0 (texto integral em LICENSES/Ubuntu Font Licence 1.0.txt).
+ - Hack: Copyright (c) 2018 Source Foundry Authors. Licenciado sob termos permissivos baseados em MIT e Bitstream Vera License.
+ - Noto Emoji: Copyright 2022 The Noto Project Authors. Licenciado sob Apache License 2.0.
+ - Emoji Icon Font: Licenciado sob MIT License.
+ - SIL Open Font License 1.1: Texto mantido para referência de glifos auxiliares (texto integral em LICENSES/SIL Open Font License 1.1.txt).
+
+------------------------------------------------------------------------
+3. ACELERAÇÃO GRÁFICA GPU: wgpu, wgpu-core, wgpu-hal, wgpu-types, naga
+------------------------------------------------------------------------
+Copyright (c) The wgpu developers
+Licença: MIT License / Apache License, Version 2.0
+Repositório: https://github.com/gfx-rs/wgpu
+
+winit (Gerenciamento de Janelas e Eventos do Sistema Operacional):
+Copyright (c) The winit developers
+Licença: Apache License, Version 2.0
+Repositório: https://github.com/rust-windowing/winit
+
+------------------------------------------------------------------------
+4. BANCO DE DADOS RELACIONAL EMBARCADO: SQLite e rusqlite
+------------------------------------------------------------------------
+SQLite Core (Motor Relacional C):
+Dedicado ao Domínio Público (Public Domain Dedication) pelos autores originais (D. Richard Hipp e equipe do SQLite).
+Website: https://www.sqlite.org
+
+rusqlite / libsqlite3-sys (Bindings Rust com feature bundled):
+Copyright (c) 2014-2026 The rusqlite Developers
+Licença: MIT License
+Repositório: https://github.com/rusqlite/rusqlite
+
+------------------------------------------------------------------------
+5. SERIALIZAÇÃO E FORMATO DE DADOS: Serde e serde_json
+------------------------------------------------------------------------
+Copyright (c) Erick Tryzelaar e David Tolnay
+Licença: MIT License / Apache License, Version 2.0
+Website: https://serde.rs
+
+------------------------------------------------------------------------
+6. UTILITÁRIOS DE SISTEMA: chrono, rfd, image, windows-sys, winres
+------------------------------------------------------------------------
+ - chrono (Data e Hora): Copyright (c) Kang Seonghoon e colaboradores — MIT / Apache 2.0
+ - rfd (Rusty File Dialogs): Copyright (c) PolyMeilex — MIT License
+ - image (Decodificação de Imagens e Ícone): Copyright (c) The image developers — MIT / Apache 2.0
+ - windows-sys (Bindings Win32): Copyright (c) Microsoft Corporation — MIT / Apache 2.0
+ - winres (Compilação de Recursos PE Windows): Copyright (c) Vadim Chugunov — MIT License
+
+------------------------------------------------------------------------
+7. DEPENDÊNCIAS TRANSITIVAS AGRUPADAS POR FAMÍLIA DE LICENÇA
+------------------------------------------------------------------------
+Todas as dependências transitivas do Eolo Platform foram auditadas quanto à higiene de licenciamento, operando exclusivamente sob licenças permissivas e sem imposição de copyleft sobre os binários comerciais oficiais:
+
+a) BSD 3-Clause License:
+ - tiny-skia e tiny-skia-path: Copyright (c) Yevhenii Reizner
+ - moxcms: Copyright (c) The moxcms Developers
+ - pxfm: Copyright (c) The pxfm Developers
+
+b) BSD 2-Clause License:
+ - arrayref: Copyright (c) David Roundy
+ - mach2: Copyright (c) The mach2 Developers
+
+c) ISC License:
+ - libloading: Copyright (c) 2015 Simonas Kazlauskas
+
+d) Zlib License:
+ - foldhash: Copyright (c) 2024 Orson Peters
+ - slotmap: Copyright (c) 2018-2021 orlp
+ - zlib-rs: Copyright (c) 2023-2024 Folkert de Vries e colaboradores
+
+e) Boost Software License 1.0 (BSL-1.0):
+ - clipboard-win: Copyright (c) 2016 Douman
+ - error-code: Copyright (c) 2020-2024 Douman
+
+f) Unicode License v3 (Unicode-3.0):
+ - icu_collections, icu_locale_core, icu_normalizer, icu_properties, icu_provider: Copyright (c) 2020-2024 Unicode, Inc.
+ - zerovec, yoke, tinystr, litemap, writeable, unicode-ident: Copyright (c) 2020-2024 Unicode, Inc.
+
+g) Eleição Expressa de Opção Permissiva em Crates com Duplo Licenciamento:
+Para crates que oferecem opção de licenciamento múltiplo (tais como self_cell, que disponibiliza Apache-2.0 ou GPL-2.0, e rfd, que oferece MIT ou LGPL), o projeto Eolo Platform elege formalmente a licença permissiva (Apache-2.0 ou MIT), não incorporando obrigações copyleft em seus binários.
+
+------------------------------------------------------------------------
+8. LOCALIZAÇÃO DAS LICENÇAS E REFERÊNCIAS BIBLIOGRÁFICAS DAS NORMAS ABNT
+------------------------------------------------------------------------
+Os textos integrais de todas as licenças de software de terceiros mencionadas acima estão disponíveis para consulta no diretório `src/assets/LICENSES/` da distribuição e na aba "Licenças" da janela "Sobre o Eolo Platform...".
+
+REFERÊNCIAS BIBLIOGRÁFICAS DAS NORMAS TÉCNICAS UTILIZADAS NO PROJETO:
+Em estrita observância aos direitos autorais da Associação Brasileira de Normas Técnicas (ABNT), nenhuma parte das publicações normativas é reproduzida neste software. As citações abaixo observam o direito de citação bibliográfica e finalidade referencial/científica (Lei Federal nº 9.610/1998, art. 46, incisos III e VIII; Convenção de Berna, art. 10), remetendo o usuário aos exemplares oficiais legitimamente adquiridos:
+
+ 1) Norma Principal de Estudo (Motor de Ações do Vento):
+    ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6123:2023: Forças devidas ao vento em edificações. 2. ed. (publicada em 20 dez. 2023; versão corrigida em 8 abr. 2025 — Errata 1). Rio de Janeiro: ABNT, 2023. 96 p. ISBN 978-85-07-09955-0. ICS 91.080.01. (Cancela e substitui a ABNT NBR 6123:1988).
+
+ 2) Normas Técnicas Correlatas Referenciadas na Documentação (Apenas Contexto de Estudo — Dimensionamento NÃO Implementado):
+    - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 8800:2024: Projeto de estruturas de aço e de estruturas mistas de aço e concreto de edifícios. Rio de Janeiro: ABNT, 2024. (Citada apenas como referência correlata para eventual combinação posterior de ações em estruturas de aço; o Eolo Platform NÃO executa dimensionamento sob esta norma).
+    - ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6118:2023: Projeto de estruturas de concreto. Rio de Janeiro: ABNT, 2023. (Citada apenas como referência correlata na documentação; o Eolo Platform NÃO executa dimensionamento sob esta norma).
+
+AVISO LEGAL DE DIREITOS AUTORAIS DA ABNT (TODOS OS DIREITOS RESERVADOS):
+As Normas Brasileiras (NBRs) acima referenciadas são publicações protegidas por direitos autorais de titularidade exclusiva da Associação Brasileira de Normas Técnicas (ABNT — https://www.abnt.org.br | Catálogo Oficial: https://www.abntcatalogo.com.br). Todos os direitos reservados. A menos que especificado de outro modo, nenhuma parte destas publicações pode ser reproduzida ou utilizada por qualquer meio, eletrônico ou mecânico, incluindo fotocópia e microfilme, sem permissão por escrito da ABNT. O Eolo Platform é um projeto independente e não possui afiliação, patrocínio, certificação ou endosso da ABNT.
+
+------------------------------------------------------------------------
+9. FINALIDADE EXCLUSIVA PARA ESTUDO ACADÊMICO, RISCO DE ERROS E ISENÇÃO DE RESPONSABILIDADE
+------------------------------------------------------------------------
+O Eolo Platform foi concebido, desenvolvido e disponibilizado EXCLUSIVAMENTE PARA FINS DE ESTUDOS ACADÊMICOS, PESQUISA EDUCACIONAL E SIMULAÇÃO DIDÁTICA. Este aplicativo NÃO constitui software certificado, homologado ou definitivo para tomadas de decisão em ambientes de produção, projetos executivos, execução de obras civis, licitações, perícias ou ambientes de trabalho comerciais.
+
+RISCO DE ERROS E DEVER DE CONFERÊNCIA MANUAL / FERRAMENTAS CONSOLIDADAS:
+Os algoritmos, interpolações, tabelas internas e relatórios exportados podem conter erros de programação, imprecisões numéricas, simplificações teóricas ou divergências em relação às normas oficiais. É obrigação exclusiva e intransferível do usuário conferir manualmente todos os parâmetros e resultados obtidos — mediante consulta a exemplares oficiais adquiridos junto à ABNT — e/ou validá-los por meio de outras ferramentas de engenharia mais consolidadas no mercado, sempre sob supervisão de profissional legalmente habilitado (CREA/CONFEA e emissão de ART — Leis nº 5.194/1966 e nº 6.496/1977).
+
+FUNDAMENTAÇÃO JURÍDICA BRASILEIRA E CONVENÇÕES INTERNACIONAIS:
+Nos termos do Código Civil Brasileiro (Lei nº 10.406/2002, arts. 186, 393, 421, 421-A, 422, 927 e 945), do Código de Defesa do Consumidor (Lei nº 8.078/1990, arts. 6º, III, 12 §3º III, 14 §3º II e 31, ressalvados os direitos legais irrenunciáveis previstos nos arts. 24, 25, 49 e 51, I do CDC e arts. 7º e 8º da Lei nº 9.609/1998) e das convenções e práticas internacionais de licenciamento de software (fornecimento "AS IS" e "WITH ALL FAULTS", nos termos da Seção 15/16 da GNU AGPLv3, do UCC § 2-316 e da delimitação de finalidade da Diretiva UE 2019/770), a utilização real e definitiva deste software em produção ou ambiente de trabalho configura uso desconforme à sua destinação exclusivamente acadêmica expressamente declarada, eximindo o autor Fernando Nillsson Cidade de toda e qualquer responsabilidade civil, contratual ou técnica por danos diretos, indiretos, lucros cessantes, falhas estruturais ou sinistros decorrentes de tal utilização indevida.

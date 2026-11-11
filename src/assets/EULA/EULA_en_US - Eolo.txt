@@ -1,0 +1,83 @@
+END USER LICENSE AGREEMENT (EULA) — EOLO PLATFORM
+Version 2026.11.11.0, November 11, 2026
+Author & Developer: Fernando Nillsson Cidade (Natural Person, Brazil)
+Official Support Contact: linceu_lighthouse@outlook.com
+Official Commercial Distribution Channel: Microsoft Store (MSIX Package)
+
+================================================================================
+1. DUAL-LICENSING MODEL (DUAL-LICENSING FRAMEWORK)
+================================================================================
+
+Eolo Platform ("Software") is distributed under a Dual-Licensing framework by Fernando Nillsson Cidade, author and sole holder of all moral and economic copyrights:
+
+A. OPEN-SOURCE EDITION (COMMUNITY — GNU AGPLv3): The full source code is published on GitHub under the GNU AGPLv3 (AGPL-3.0-only), with an additional term under Section 7(e) protecting the "Eolo Platform"™ trademark. Any person is free to study, audit, compile, modify, and redistribute the code under the same terms.
+
+B. COMMERCIAL EDITION & OFFICIAL BINARIES (MICROSOFT STORE): This EULA applies exclusively to end users who purchase or install the official pre-compiled binaries (eolo.exe and eolo-cli.exe) from the Microsoft Store or via direct commercial license, without restricting any GNU AGPLv3 rights over the public code.
+
+================================================================================
+2. COMMERCIAL LICENSE GRANT (MICROSOFT STORE & DIRECT)
+================================================================================
+
+2.1. Upon purchasing or installing the official compiled version of Eolo Platform from the Microsoft Store, the Licensor grants you a commercial, non-exclusive, non-transferable license for personal or corporate use on Windows devices linked to your Microsoft account.
+
+2.2. ADDITIONAL TERMS IN PARTNER CENTER: This EULA constitutes the additional license terms submitted in the Microsoft Store listing, supplementing and prevailing over the Standard Application License Terms (SALT).
+
+2.3. COPYLEFT EXEMPTION FOR THE COMMERCIAL BINARY: Because the Commercial Edition is licensed under this EULA and not under the GNU AGPLv3, internal business use and execution of the official binary do not trigger the source code disclosure obligations of Section 13 of the GNU AGPLv3.
+
+2.4. STATUTORY RIGHT OF WITHDRAWAL (CDC, ART. 49): Pursuant to Art. 49 of the Brazilian Consumer Defense Code (Law No. 8,078/1990), consumers may exercise their right of withdrawal within 7 (seven) days of purchase via the official Microsoft Store refund flow.
+
+================================================================================
+3. TECHNICAL VALIDITY PERIOD & SUPPORT (BRAZILIAN LAW NO. 9,609/1998, ARTS. 7 & 8)
+================================================================================
+
+3.1. TECHNICAL VALIDITY PERIOD (ART. 7 OF LAW NO. 9,609/1998): Pursuant to Art. 7 of the Brazilian Software Law, the technical validity period of this version (2026.11.8.0) is fixed at 12 (twelve) months from its official release date (November 8, 2026), or until a superseding release.
+
+3.2. COMPLEMENTARY TECHNICAL SERVICES (ART. 8 OF LAW NO. 9,609/1998): During technical validity, the author ensures complementary technical services consisting of corrective updates via the Microsoft Store and incident support via official e-mail (linceu_lighthouse@outlook.com).
+
+3.3. SUPPORT SCOPE: Support operates on a reasonable best-effort basis by an individual developer, excluding telephone support, remote access, corporate 24/7 SLA, and personalized structural consulting.
+
+================================================================================
+4. EXCLUSIVELY ACADEMIC PURPOSE, ERROR RISK & ABNT COPYRIGHT NOTICE
+================================================================================
+
+4.1. EXCLUSIVELY ACADEMIC PURPOSE & POSSIBLE ERRORS: The Software is an experimental application developed EXCLUSIVELY FOR ACADEMIC STUDY, EDUCATION, AND DIDACTIC RESEARCH. The Software MAY CONTAIN PROGRAMMING BUGS, NUMERICAL INACCURACIES, OR SIMPLIFICATIONS, and DOES NOT serve as definitive software for decision-making in production environments, construction designs, or professional workplaces.
+
+4.2. MANDATORY MANUAL / CONSOLIDATED-TOOL VERIFICATION & ART (LAWS NO. 5,194/1966 & NO. 6,496/1977): All calculated results MUST be manually verified by the user (against an officially acquired standard copy) and/or checked through established, consolidated market software. The Software does NOT replace a qualified civil/structural engineer registered with CREA/CONFEA or the mandatory Technical Responsibility Annotation (ART/RRT).
+
+4.3. ABNT COPYRIGHTS (ALL RIGHTS RESERVED): ABNT standards (such as NBR 6123:2023, NBR 8800:2024, and NBR 6118:2023) are copyrighted works exclusively owned by the Brazilian Association of Technical Standards (ABNT). All rights reserved; no part of these standards is reproduced in the Software, and only bibliographic references are listed in the "Notices" tab (Law No. 9,610/1998, Art. 46, III & VIII; Berne Convention Art. 10). The Software has no affiliation or endorsement from ABNT; the user must consult an officially acquired copy of the standard.
+
+================================================================================
+5. INTELLECTUAL PROPERTY, THIRD-PARTY DEPENDENCIES & TRADEMARKS
+================================================================================
+
+5.1. OWNERSHIP: Source code, analytical architecture, 2D/3D interfaces, and documentation are owned by Fernando Nillsson Cidade (Laws No. 9,609/1998 and No. 9,610/1998, and the Berne Convention).
+
+5.2. TRADEMARKS: "Eolo Platform"™ and "Eolo"™ are trademarks of the author. No trademark license is granted by this EULA or under AGPLv3 (Section 7(e)), and unauthorized use to brand forks is strictly prohibited.
+
+5.3. THIRD PARTIES: Embedded Rust components (egui, eframe, wgpu, rusqlite, serde, chrono, rfd, image, winres) and SQLite operate under permissive licenses (MIT, Apache 2.0, BSD, Zlib, BSL-1.0, Unicode-3.0, Public Domain), as detailed in the NOTICES file.
+
+================================================================================
+6. PRIVACY & LOCAL-FIRST PROCESSING (LGPD & MICROSOFT STORE POLICY 10.5.1)
+================================================================================
+
+6.1. LOCAL-FIRST ARCHITECTURE: The software operates 100% offline: parameters, project data, and exported files are processed and stored exclusively on the user's local machine, with zero telemetry, tracking, or cloud.
+
+6.2. LGPD & MICROSOFT STORE COMPLIANCE (POLICY 10.5.1): Processing complies with Brazilian LGPD (Law No. 13,709/2018). Commercial store operations are governed by Microsoft's Privacy Statement: https://www.microsoft.com/pt-br/privacy/privacystatement.
+
+================================================================================
+7. DISCLAIMER OF WARRANTIES & LIMITATION OF LIABILITY (WITH CDC SAVING CLAUSE)
+================================================================================
+
+7.1. AS-IS PROVISION & PRODUCTION LIABILITY EXEMPTION: To the maximum extent permitted by the Brazilian Civil Code (Law No. 10,406/2002, Arts. 186, 393, 421, 421-A, 422, 927, and 945), the Brazilian CDC (Arts. 6(III), 12(§3)(III), 14(§3)(II), and 31), and international conventions ("AS IS" and "WITH ALL FAULTS", UCC § 2-316, GNU AGPLv3 Sections 15–16, and EU Directive 2019/770), the Software is provided "as-is", EXCLUSIVELY for academic study, without warranties of numerical accuracy or fitness for production or commercial engineering. Any use of the Software for definitive decision-making in production or workplace environments constitutes improper use outside its declared scope and sole user fault, exempting the Licensor from civil or technical liability for losses, structural failures, lost profits, or damages resulting from use without manual checking and validation in consolidated tools.
+
+7.2. EXPRESS SAVING CLAUSE FOR CONSUMER RIGHTS (CDC — LAW NO. 8,078/1990): NOTHING IN THIS AGREEMENT EXCLUDES, RESTRICTS, OR LIMITS NON-WAIVABLE STATUTORY CONSUMER RIGHTS OR WARRANTIES (LAW NO. 8,078/1990, ESPECIALLY ARTS. 24, 25, AND 51, I) OR UNDER LAW NO. 9,609/1998 (ARTS. 7 AND 8).
+
+7.3. LIABILITY CAP: Except where prohibited by mandatory consumer law, the Licensor's aggregate liability for proven damages is strictly limited to the amount paid by the user for the license in the Microsoft Store.
+
+================================================================================
+8. GOVERNING LAW & JURISDICTION
+================================================================================
+
+8.1. GOVERNING LAW: This agreement is governed by the laws of the Federative Republic of Brazil (Laws No. 9,609/1998, No. 9,610/1998, No. 8,078/1990, No. 10,406/2002, No. 12,965/2014, and No. 13,709/2018).
+
+8.2. JURISDICTION: The courts of the author's domicile are elected, without prejudice to the consumer's domicile forum (Art. 101, I, of the CDC) or mandatory consumer protection rules under Microsoft Store sales.

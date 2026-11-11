@@ -1,0 +1,47 @@
+================================================================================
+COPYRIGHT AND TRADEMARK (™) NOTICE — EOLO PLATFORM
+================================================================================
+
+Product: Eolo Platform (Eolo) — Binaries: eolo.exe and eolo-cli.exe
+Version: 2026.11.8.0
+Date: November 8, 2026
+Author and Sole Copyright Holder: Fernando Nillsson Cidade (Natural Person, Brazil)
+Official Support Channel: linceu_lighthouse@outlook.com
+Public Repository (GitHub): https://github.com/fernandoncidade
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+================================================================================
+1. EXCLUSIVE COPYRIGHT OWNERSHIP
+================================================================================
+
+The Eolo Platform software (including the executables `eolo.exe` and `eolo-cli.exe`) and its associated original documentation are an intellectual work exclusively owned by Fernando Nillsson Cidade, a natural person (pessoa física) and independent developer in Brazil, protected by the Brazilian Software Law (Federal Law No. 9,609/1998), the Brazilian Copyright Law (Federal Law No. 9,610/1998), and the Berne Convention for the Protection of Literary and Artistic Works. Copyright protection covers, without limitation, the original Rust source code, the ABNT NBR 6123:2023 analytical engine architecture, the 2D/3D egui/eframe graphical interface, the bilingual locale catalogs, visual assets, and user manuals.
+
+================================================================================
+2. DUAL-LICENSING FRAMEWORK AND CONTRIBUTOR LICENSE AGREEMENT (CLA)
+================================================================================
+
+The Eolo Platform project is distributed under a Dual-Licensing model:
+ - The public source code made available on GitHub is licensed under the terms of the GNU Affero General Public License version 3.0 only (`AGPL-3.0-only`).
+ - The official compiled and signed binaries commercially distributed via the Microsoft Store or by direct commercial authorization from the author are licensed under the End User License Agreement (`src/assets/EULA/`) and the Commercial Licensing Terms (`src/assets/CLC/`).
+ - External contributions to the public repository require formal written acceptance of the Contributor License Agreement (`docs/CLA.md`), pursuant to Articles 49 and 50 of Brazilian Federal Law No. 9,610/1998, preserving the author's ability to dual-license the project.
+
+================================================================================
+3. TRADEMARK NOTICE ("Eolo Platform"™ AND "Eolo"™)
+================================================================================
+
+The designations "Eolo Platform"™ and "Eolo"™, as well as the project logo and associated visual identity, constitute product and software trademarks (unregistered trademarks identified by the ™ symbol) used by Fernando Nillsson Cidade to distinguish his official software distributions. Pursuant to Section 7(e) of the GNU AGPLv3 license and applicable law, neither the GNU AGPLv3 nor the commercial EULA grants any right to use the "Eolo Platform"™ or "Eolo"™ trademarks to endorse, promote, or distribute modified versions or third-party derivative forks without prior express written permission from the author.
+
+================================================================================
+4. THIRD-PARTY OPEN-SOURCE COMPONENTS
+================================================================================
+
+Third-party libraries, crates, and fonts incorporated into Eolo Platform (including the Rust standard library, `egui`, `eframe`, `epaint`, `wgpu`, `naga`, `winit`, `rusqlite`, `serde`, `serde_json`, `chrono`, `rfd`, `image`, `windows-sys`, `winres`, the `Ubuntu`, `Hack`, and `NotoEmoji` fonts, and the public-domain SQLite engine) remain the copyright of their respective authors and are used in strict compliance with their permissive open-source licenses (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `ISC`, `Zlib`, `BSL-1.0`, `Unicode-3.0`, `OFL-1.1`, `Ubuntu Font Licence 1.0`, and Public Domain), as detailed in `src/assets/NOTICES/` and `src/assets/LICENSES/`.
+
+================================================================================
+5. ABNT INTELLECTUAL PROPERTY & EXCLUSIVELY ACADEMIC PURPOSE NOTICE
+================================================================================
+
+5.1. ABNT Copyrights (All Rights Reserved): The Brazilian Technical Standards referenced in the project (ABNT NBR 6123:2023, NBR 8800:2024, and NBR 6118:2023) are copyrighted publications exclusively owned by Associação Brasileira de Normas Técnicas (ABNT — https://www.abnt.org.br). All rights reserved; no part of those publications is reproduced electronically within the software, and Eolo Platform provides solely their official bibliographic references in the "Notices" tab (Brazilian Law No. 9,610/1998, Art. 46, III & VIII; Berne Convention Art. 10). Eolo Platform is independent and has no affiliation, sponsorship, or endorsement from ABNT; users must consult legitimately purchased official copies.
+
+5.2. Exclusively Academic Purpose, Possible Errors & Exemption from Production Liability: Eolo Platform is an intellectual work developed EXCLUSIVELY FOR ACADEMIC STUDY AND EDUCATIONAL PURPOSES, subject to potential calculation or implementation errors, and DOES NOT serve as definitive software for decision-making in production or workplace environments. All results MUST be checked manually and/or verified through consolidated industry software by a qualified engineer (Brazilian Laws No. 5,194/1966 & No. 6,496/1977), exempting the author from legal liability for any real-world or production use outside the declared academic scope (Brazilian Civil Code Arts. 186, 393, 421, 927 & 945; CDC Arts. 6(III), 14(§3)(II) & 31, preserving non-waivable consumer rights; international "AS IS" conventions and GNU AGPLv3 Sections 15–16).

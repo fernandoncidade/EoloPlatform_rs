@@ -1,0 +1,85 @@
+================================================================================
+EOLO PLATFORM — PLATAFORMA DE ESTUDO ACADÊMICO EM AÇÕES DE VENTO (REF. NBR 6123:2023)
+================================================================================
+
+Projeto: Eolo Platform (Eolo)
+Versão: 2026.11.11.0
+Data de Publicação: 8 de novembro de 2026
+Autor e Titular Exclusivo: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Canal Oficial de Suporte: linceu_lighthouse@outlook.com
+Repositório Público (GitHub): https://github.com/fernandoncidade
+Binários Oficiais: eolo.exe (Interface Gráfica GPU) e eolo-cli.exe (CLI)
+AppUserModelID: FernandoCidade.EoloPlatform.NBR6123.2026
+
+"Ferramenta computacional para estudo acadêmico e simulação didática de ações de vento em edificações."
+
+================================================================================
+AVISO ESSENCIAL: FINALIDADE EXCLUSIVA PARA ESTUDO ACADÊMICO E RISCO DE ERROS
+================================================================================
+
+O Eolo Platform é uma aplicação desenvolvida EXCLUSIVAMENTE PARA FINS DE ESTUDOS ACADÊMICOS, APRENDIZADO E EXPERIMENTAÇÃO DIDÁTICA. Este aplicativo NÃO é um software definitivo para tomadas de decisão em produção, obras reais ou ambientes profissionais, podendo conter erros de cálculo, falhas de implementação ou simplificações numéricas. Todos os resultados DEVEM ser conferidos manualmente (com base em exemplar oficial da norma) ou através de ferramentas mais consolidadas no mercado.
+
+================================================================================
+1. VISÃO GERAL E ARQUITETURA TÉCNICA
+================================================================================
+
+O Eolo Platform é uma aplicação desktop nativa desenvolvida em Rust (Edição 2021) com interface gráfica imediata em egui/eframe (0.37) e aceleração por hardware via wgpu. Concebida para apoiar o estudo acadêmico de estudantes, pesquisadores e entusiastas de engenharia civil e mecânica, a plataforma organiza rotinas didáticas de cálculo em três camadas analíticas com execução 100% local:
+
+1.1. Motor Analítico de Estudo (Referência: ABNT NBR 6123:2023): Implementação de rotinas experimentais para estudo de velocidade básica do vento (V0) com base de referência de 49 estações meteorológicas da FAB nas 27 Unidades Federativas do Brasil, fator topográfico (S1 — Ref. Item 5.2), fator de rugosidade, dimensões e altura (S2 — Ref. Item 5.3, Categorias I a V e Classes A, B e C) e fator estatístico (S3 — Ref. Item 5.4, Grupos 1 a 5 e redução para vedações), estimando velocidade característica (Vk = V0 · S1 · S2 · S3) e pressão dinâmica (q = 0,613 · Vk²).
+
+1.2. Aerodinâmica Didática e Envoltórias Estimadas: Rotinas de estudo para interpolação de coeficientes de pressão e forma externos (Cpe / Ce — Ref. Tabelas 6, 7, 8, 10, 14 e Figuras 7 e 8) combinadas à estimativa de pressão interna (Cpi — Ref. Item 6.3) para estudo didático de edificações estanques, com permeabilidade uniforme ou abertura dominante.
+
+1.3. Visualização 2D/3D na GPU, Relatórios de Estudo e CLI: Renderização vetorial em tempo real do pórtico transversal 2D e do modelo wireframe 3D orbital com vetores proporcionais, acompanhada de gerador de relatórios de estudo com exportação para HTML5 (A4), Markdown (.md) e JSON (.json), 5 cenários didáticos e utilitário CLI (eolo-cli.exe).
+
+================================================================================
+2. AS 5 ABAS DIDÁTICAS E RECURSOS DE INTERFACE
+================================================================================
+
+2.1. Aba 1 — Localização & V0: Seleção de UF e estação de referência da FAB, definição de V0 e parametrização didática de S1, S2 e S3 com exibição dos parâmetros intermediários (b, Fr, p, Vk e q).
+
+2.2. Aba 2 — Geometria da Edificação: Parametrização didática de vão livre (b), comprimento (a), pé-direito (h), inclinação (θ), largura de beirais e espaçamentos entre pórticos e terças.
+
+2.3. Aba 3 — Aberturas & Cpi: Simulação de áreas de aberturas para estudo de cenários de Cpi e apresentação das envoltórias estimadas de pressões (kN/m²) e cargas lineares (kN/m).
+
+2.4. Aba 4 — Diagrama de Cargas & 3D GPU: Visualizador interativo 2D/3D com controles de câmera (rotação, zoom e pan) e alternância entre Tema Escuro e Tema Claro.
+
+2.5. Aba 5 — Memorial de Cálculo (Estudo): Relatório estruturado de estudo com filtro textual e exportação direta para HTML5 (A4), Markdown e JSON (sempre acompanhado de aviso de uso não produtivo).
+
+2.6. Ferramentas Auxiliares e Linha de Comando (eolo-cli.exe): Inclui janelas dedicadas de Cálculo Rápido, Rastreabilidade Acadêmica, Conversor de Unidades, Manual Interativo, bilinguismo dinâmico (`pt-BR` e `en-US`), referências bibliográficas das normas ABNT na aba "Avisos" e o binário `eolo-cli.exe`.
+
+================================================================================
+3. ESCOPO DE USO PERMITIDO (ESTUDO ACADÊMICO APENAS)
+================================================================================
+
+3.1. Ensino e Pesquisa Universitária: Demonstração visual dos efeitos aerodinâmicos em aulas de mecânica dos fluidos aplicada, teoria das estruturas e projetos acadêmicos supervisionados.
+
+3.2. Estudo Individual e Análise Paramétrica Experimental: Comparação didática de sensibilidade entre categorias de rugosidade, topografia e aberturas dominantes, devendo o estudante sempre conferir os valores à mão e em softwares comerciais consolidados.
+
+3.3. Proibição de Uso Definitivo em Produção: Este aplicativo NÃO se destina à tomada de decisão definitiva em produção, obras civis, projetos executivos, concorrências públicas ou laudos periciais comerciais.
+
+================================================================================
+4. PRIVACIDADE SOBERANA (100% LOCAL-FIRST E ZERO TELEMETRIA)
+================================================================================
+
+O Eolo Platform opera 100% offline no computador do usuário, sem dependência de servidores em nuvem, sem coleta de telemetria, sem analytics, sem criação de contas, sem anúncios, sem compras internas e sem uso de modelos de inteligência artificial generativa. Os dados inseridos permanecem em RAM durante a sessão e somente são gravados em disco quando o usuário exporta ou salva arquivos em local de sua escolha.
+
+================================================================================
+5. ISENÇÃO DE RESPONSABILIDADE LEGAL, LEGISLAÇÃO E DIREITOS DA ABNT
+================================================================================
+
+5.1. Ferramenta Exclusivamente Acadêmica e Risco de Erros: O Eolo Platform é uma ferramenta computacional de estudo acadêmico que PODE CONTER ERROS, imprecisões numéricas ou simplificações. O software NÃO é certificado ou homologado por órgãos públicos ou entidades técnicas, NÃO serve como software definitivo para tomadas de decisão em produção e NÃO implementa dimensionamento de elementos estruturais (como NBR 8800 ou NBR 6118).
+
+5.2. Obrigatoriedade de Conferência Manual, Ferramentas Consolidadas e Profissional Habilitado: Nos termos do Código Civil Brasileiro (Lei nº 10.406/2002, arts. 186, 393, 421, 422, 927 e 945), do CDC (Lei nº 8.078/1990, arts. 6º, III, 12 §3º III, 14 §3º II e 31, preservados os direitos irrenunciáveis dos arts. 24, 25, 49 e 51, I e da Lei nº 9.609/1998, arts. 7º e 8º), das Leis nº 5.194/1966 e nº 6.496/1977 (CONFEA/CREA e ART) e das convenções internacionais ("AS IS" / "WITH ALL FAULTS", UCC § 2-316 e Diretiva UE 2019/770), o uso em produção configura uso contrário à finalidade exclusivamente acadêmica declarada, isentando o autor de responsabilidade jurídica por danos decorrentes de decisões definitivas tomadas sem conferência manual e validação em ferramentas consolidadas de mercado.
+
+5.3. Direitos Autorais da ABNT (Todos os Direitos Reservados): As normas técnicas da ABNT são publicações protegidas por direitos autorais exclusivos da Associação Brasileira de Normas Técnicas (ABNT). Nenhuma parte das normas é reproduzida no Eolo Platform; apenas as referências bibliográficas oficiais constam na aba "Avisos". O usuário deve sempre adquirir e consultar exemplares oficiais da ABNT.
+
+================================================================================
+6. MODELO DE DUPLO LICENCIAMENTO E CANAIS OFICIAIS
+================================================================================
+
+O Eolo Platform é disponibilizado sob modelo de Duplo Licenciamento:
+- Código-Fonte Público (GitHub): licenciado sob a GNU Affero General Public License v3.0 (AGPL-3.0-only).
+- Binários Oficiais Comerciais (Microsoft Store e distribuição comercial direta): licenciados sob o Contrato de Licença de Usuário Final (EULA) e os Termos de Licenciamento Comercial (CLC) próprios do autor. A marca "Eolo Platform"™ é protegida nos termos da Seção 7(e) da GNU AGPLv3.
+
+Contato Oficial de Suporte: linceu_lighthouse@outlook.com
+GitHub Oficial: https://github.com/fernandoncidade

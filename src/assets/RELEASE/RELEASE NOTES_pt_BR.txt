@@ -1,0 +1,45 @@
+NOTAS DE LANÇAMENTO (RELEASE NOTES) — EOLO PLATFORM
+===================================================
+
+Versão: 2026.11.11.0
+Data de Lançamento: 8 de novembro de 2026
+Autor: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Canal Oficial de Suporte: linceu_lighthouse@outlook.com
+Canal de Distribuição Comercial: Microsoft Store (Pacote MSIX)
+
+DESTAQUES DA VERSÃO 2026.11.11.0:
+================================
+
+1. MODELO DE DUPLO LICENCIAMENTO E COMPATIBILIDADE MICROSOFT STORE:
+ - Código-fonte público no GitHub sob a licença GNU Affero General Public License v3.0 (AGPL-3.0-only), com termo adicional sob a Seção 7(e) protegendo a marca "Eolo Platform"™.
+ - Edição Comercial oficial disponibilizada na Microsoft Store sob o Contrato de Licença de Usuário Final (EULA) e Termos de Licenciamento Comercial (CLC), conferindo isenção de obrigações de reciprocidade da AGPLv3 para uso corporativo.
+ - Formalização do Contrato de Licença de Contribuidor (CLA) e DCO para submissões.
+ - Atendimento integral às diretrizes de submissão MSIX do Partner Center e à Política 10.5.1 da Microsoft Store quanto à transparência de privacidade.
+
+2. CONFORMIDADE COM A LEGISLAÇÃO BRASILEIRA (LEI Nº 9.609/1998, LGPD E CDC):
+ - Estabelecimento do prazo de validade técnica de 12 (doze) meses (art. 7º da Lei nº 9.609/1998) e garantia de serviços técnicos complementares de manutenção corretiva e suporte por e-mail no território nacional (art. 8º).
+ - Política de Privacidade e termos alinhados à LGPD (Lei nº 13.709/2018), com arquitetura 100% Local-First e zero telemetria própria na aplicação.
+ - Cláusula de salvaguarda expressa dos direitos irrenunciáveis do consumidor (CDC, Lei nº 8.078/1990) e direito de arrependimento em 7 dias (art. 49).
+
+3. INTEGRAÇÃO VISUAL NATIVA COM O WINDOWS 11:
+ - Incorporação do ícone de alta resolução oficial (eolo.ico) nos recursos PE dos binários compilados (eolo.exe e eolo-cli.exe) via winres, exibindo a identidade visual nativamente no Windows Explorer e na Área de Trabalho.
+ - Vinculação do AppUserModelID explícito ("FernandoCidade.EoloPlatform.NBR6123.2026") para agrupamento e exibição dedicada do ícone na barra de tarefas do Windows 11.
+ - Injeção do ícone no ViewportBuilder do eframe para renderização na barra de títulos da janela e no alternador Alt+Tab.
+
+4. MOTOR ANALÍTICO DIDÁTICO (REFERÊNCIA: ABNT NBR 6123:2023):
+ - Base de dados referencial com 49 estações meteorológicas da Força Aérea Brasileira (FAB) e 27 Unidades Federativas (Ref. Tabela C.1 e Figura 1).
+ - Rotinas de estudo para fatores S1 (Ref. Item 5.2), S2 (Ref. Item 5.3 — Categorias I a V e Classes A, B e C), S3 (Ref. Item 5.4 — Grupos 1 a 5 e redução de 0,92 para vedação), velocidade Vk e pressão q.
+ - Interpolação contínua didática de coeficientes externos (Cpe/Ce — Ref. Tabelas 6, 7, 8, 10, 14) e pressão interna (Cpi — Ref. Item 6.3, aberturas dominantes e beirais).
+ - Substituição da visualização de texto normativo pela listagem exclusiva de referências bibliográficas na aba "Avisos" (Ajuda > Sobre o Eolo Platform...), em pleno respeito aos direitos autorais da ABNT (Todos os direitos reservados; proibida reprodução sem permissão por escrito).
+
+5. INTERFACE DINÂMICA EM 5 ABAS, TEMAS E BILINGUISMO EM TEMPO REAL:
+ - Transição instantânea em tempo de execução entre o Tema Escuro e o Tema Claro.
+ - Bilinguismo completo em tempo real entre Português (BR) e Inglês (US) na interface, no visualizador 2D/3D GPU e no Memorial de Cálculo exportável (HTML, Markdown, JSON).
+ - Barra de ferramentas responsiva em moldura fina e janela Sobre padronizada em 9 abas.
+ - Utilitário de linha de comando autônomo (eolo-cli.exe) para estudos e simulações em lote.
+
+6. AVISO LEGAL DE ESTUDO ACADÊMICO, RISCO DE ERROS E ISENÇÃO DE RESPONSABILIDADE:
+ - O Eolo Platform destina-se EXCLUSIVAMENTE a fins de estudo acadêmico e educacional.
+ - O software PODE CONTER ERROS de cálculo ou programação e NÃO serve como software definitivo para tomadas de decisão em produção ou ambientes de trabalho.
+ - Todos os resultados devem ser obrigatoriamente conferidos manualmente (com exemplar oficial da norma) ou por meio de ferramentas consolidadas no mercado e supervisionados por profissional habilitado (CREA/CONFEA e ART, Leis nº 5.194/1966 e nº 6.496/1977).
+ - Nos termos do Código Civil (arts. 186, 393, 421, 927 e 945), do CDC (arts. 6º, III, 14 §3º II e 31, ressalvados os direitos irrenunciáveis dos arts. 24, 25, 49 e 51, I e Lei nº 9.609/1998) e de convenções internacionais ("AS IS" / "WITH ALL FAULTS", UCC § 2-316 e GNU AGPLv3 Seções 15-16), o autor fica isento de responsabilidade legal pelo uso real e definitivo em produção.

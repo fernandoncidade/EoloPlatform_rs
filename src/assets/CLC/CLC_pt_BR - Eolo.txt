@@ -1,0 +1,85 @@
+================================================================================
+TERMOS DE LICENCIAMENTO COMERCIAL E DISTRIBUIÇÃO (CLC) — EOLO PLATFORM
+================================================================================
+
+Produto: Eolo Platform (Eolo) — Binários: eolo.exe e eolo-cli.exe
+Versão 2026.11.11.0, 11 de novembro de 2026
+Autor e Titular Exclusivo: Fernando Nillsson Cidade (Desenvolvedor Independente, Pessoa Física, Brasil)
+Canal Oficial de Suporte: linceu_lighthouse@outlook.com
+Repositório Público (GitHub): https://github.com/fernandoncidade
+Canal Primário de Distribuição Comercial: Microsoft Store (Formato MSIX)
+AppUserModelID: FernandoCidade.EoloPlatform.NBR6123.2026
+
+================================================================================
+1. TITULARIDADE AUTORAL E NATUREZA DO DESENVOLVEDOR (PESSOA FÍSICA)
+================================================================================
+
+1.1. O software Eolo Platform ("Eolo", compreendendo os executáveis `eolo.exe` e `eolo-cli.exe` e sua documentação associada) é uma obra intelectual original de titularidade exclusiva de Fernando Nillsson Cidade, pessoa física e desenvolvedor independente no Brasil, protegida pela Lei do Software (Lei Federal nº 9.609/1998), pela Lei de Direitos Autorais (Lei Federal nº 9.610/1998) e pelos tratados internacionais de direitos autorais (Convenção de Berna).
+
+1.2. O desenvolvedor atua estritamente como pessoa física independente, não constituindo instituição financeira, entidade bancária ou sociedade empresária de crédito. O autor não realiza faturamento paralelo direto por meio de PIX, boletos bancários ou cobranças fora dos canais oficiais, nem aplica diretamente cobrança de juros de mora ou multas financeiras.
+
+1.3. Os nomes "Eolo Platform"™ e "Eolo"™ constituem marcas de produto e software utilizadas pelo autor para identificar suas distribuições oficiais.
+
+================================================================================
+2. DISTRIBUIÇÃO COMERCIAL VIA MICROSOFT STORE E SUBMISSÃO MSIX
+================================================================================
+
+2.1. A comercialização oficial das versões compiladas e assinadas (binários executáveis) do Eolo Platform é realizada prioritariamente por meio da plataforma digital Microsoft Store em formato de pacote MSIX, em conformidade com o processo oficial de submissão do Microsoft Partner Center (https://learn.microsoft.com/pt-br/windows/apps/publish/publish-your-app/msix/create-app-submission).
+
+2.2. O processamento de pagamentos, recolhimento de tributos aplicáveis, conversão de moedas, emissão de comprovantes, processamento de reembolsos, autenticação de conta Microsoft e gestão do direito de instalação (license entitlement) nos dispositivos Windows compatíveis vinculados à conta do adquirente são operados diretamente pela Microsoft Corporation, segundo os Termos de Venda da Microsoft Store (Microsoft Store Terms of Sale).
+
+2.3. No Microsoft Partner Center, o Contrato de Licença de Usuário Final (EULA) do Eolo Platform (`src/assets/EULA/`) é submetido no campo "Termos de licença adicionais" (Additional license terms) da listagem na loja, regendo o binário comercial em conjunto com este CLC em substituição aos Termos Padrão de Licença de Aplicativo (Standard Application License Terms — SALT).
+
+2.4. O instalador autônomo gerado via Inno Setup (`repo/EoloPlatform.iss`) destina-se exclusivamente à distribuição direta autorizada pelo autor fora da Microsoft Store; as entregas realizadas pela Microsoft Store utilizam exclusivamente pacotes MSIX.
+
+================================================================================
+3. CONVIVÊNCIA COM A EDIÇÃO OPEN SOURCE (GNU AGPLv3) E ACORDO DE CONTRIBUIÇÃO
+================================================================================
+
+3.1. A distribuição comercial de binários na Microsoft Store coexiste de forma transparente com a disponibilização pública do código-fonte do Eolo Platform no GitHub (https://github.com/fernandoncidade) sob a licença GNU Affero General Public License versão 3.0 apenas (`AGPL-3.0-only`).
+
+3.2. Como o binário comercial oficial é licenciado diretamente pelo titular exclusivo dos direitos autorais sob o EULA comercial e este CLC, e não sob a licença GNU AGPLv3, as obrigações de reciprocidade e copyleft da GNU AGPLv3 (incluindo sua Seção 13) não decorrem do uso interno do binário comercial.
+
+3.3. Os usuários e desenvolvedores que optarem por obter, estudar, modificar, compilar ou redistribuir o código-fonte público a partir do repositório GitHub permanecem regidos exclusivamente pela GNU AGPLv3; nada neste CLC ou no EULA restringe, reduz ou revoga as liberdades concedidas pela GNU AGPLv3 sobre o código-fonte público.
+
+3.4. O modelo de Duplo Licenciamento é viabilizado pelo fato de o autor deter a titularidade integral da base de código e exigir, para contribuições externas, a assinatura do Acordo de Licença de Contribuidor (`docs/CLA.md`), celebrado por escrito nos termos dos artigos 49 e 50 da Lei Federal nº 9.610/1998, pelo qual o contribuidor mantém a titularidade autoral de sua contribuição e concede ao autor licença não exclusiva, irrevogável, mundial e gratuita com direito de sublicenciar e relicenciar sob a GNU AGPLv3 e sob termos comerciais.
+
+================================================================================
+4. PRAZO DE VALIDADE TÉCNICA (LEI Nº 9.609/1998, ART. 7º) E SUPORTE (ART. 8º)
+================================================================================
+
+4.1. Prazo de Validade Técnica (Art. 7º da Lei nº 9.609/1998): Em estrito cumprimento ao artigo 7º da Lei Federal nº 9.609/1998, fica estabelecido que o prazo de validade técnica da versão comercial `2026.11.8.0` (publicada em 8 de novembro de 2026) é de 12 (doze) meses a contar da data de publicação da versão, ou até a disponibilização de versão posterior que a substitua, o que for maior.
+
+4.2. Serviços Técnicos Complementares (Art. 8º da Lei nº 9.609/1998): Nos termos do artigo 8º da Lei Federal nº 9.609/1998, durante o prazo de validade técnica da versão, o autor assegura ao usuário a prestação de serviços técnicos complementares para o adequado funcionamento do programa, consistentes em: (a) manutenção corretiva por meio de atualizações de versão disponibilizadas através da Microsoft Store ou do repositório oficial; e (b) atendimento de suporte técnico relativo à instalação e operação do software, prestado em regime de melhor esforço razoável (best-effort) exclusivamente através do e-mail oficial: linceu_lighthouse@outlook.com.
+
+4.3. Exclusões Expressas de Atendimento: Por tratar-se de software mantido individualmente por desenvolvedor pessoa física, o suporte técnico NÃO compreende: (a) atendimento por telefone, chat instantâneo ou aplicativos de mensagens; (b) acesso remoto a computadores, estações de trabalho ou servidores; (c) acordo de nível de serviço (SLA) corporativo contínuo 24x7; nem (d) consultoria de engenharia estrutural, revisão de projetos de terceiros ou emissão de Anotação de Responsabilidade Técnica (ART).
+
+================================================================================
+5. NATUREZA EXCLUSIVAMENTE ACADÊMICA, RISCO DE ERROS E INDEPENDÊNCIA DA ABNT
+================================================================================
+
+5.1. Aplicação Exclusiva para Estudo Acadêmico e Possibilidade de Erros: O Eolo Platform é uma ferramenta computacional educacional desenvolvida EXCLUSIVAMENTE PARA FINS DE ESTUDO ACADÊMICO, APRENDIZAGEM E SIMULAÇÃO DIDÁTICA tomando como referência bibliográfica a ABNT NBR 6123:2023. O software PODE CONTER ERROS DE PROGRAMAÇÃO, IMPRECISÕES NUMÉRICAS OU SIMPLIFICAÇÕES, NÃO é certificado ou homologado por órgãos públicos e NÃO implementa o dimensionamento de elementos estruturais (como ABNT NBR 8800 ou ABNT NBR 6118).
+
+5.2. Inadequação para Produção e Dever de Conferência Manual / Ferramentas Consolidadas: O software NÃO serve como ferramenta definitiva para tomadas de decisão em ambientes de produção, projetos executivos, obras civis ou ambientes de trabalho. Todos os resultados obtidos DEVEM ser obrigatoriamente conferidos manualmente pelo usuário (a partir de exemplar oficial da norma) ou por meio de outras ferramentas de engenharia mais consolidadas no mercado. Nos termos da Lei Federal nº 5.194/1966 e da Lei Federal nº 6.496/1977, o software NÃO substitui o engenheiro legalmente habilitado com registro no sistema CREA/CONFEA, a verificação independente dos cálculos nem a emissão da Anotação de Responsabilidade Técnica (ART).
+
+5.3. Direitos Autorais da ABNT (Todos os Direitos Reservados): As normas técnicas da ABNT (como ABNT NBR 6123:2023, NBR 8800:2024 e NBR 6118:2023) são publicações protegidas por direitos autorais de titularidade exclusiva da Associação Brasileira de Normas Técnicas (ABNT — https://www.abnt.org.br). Todos os direitos reservados; nenhuma parte das normas é reproduzida neste software, constando apenas suas referências bibliográficas na aba "Avisos" (Lei nº 9.610/1998, art. 46, III e VIII). O Eolo Platform não possui afiliação, patrocínio ou endosso da ABNT, devendo o usuário adquirir e consultar o exemplar oficial da norma.
+
+================================================================================
+6. PROTEÇÃO DE DADOS PESSOAIS E PRIVACIDADE (LGPD, GDPR E MICROSOFT STORE)
+================================================================================
+
+6.1. O Eolo Platform opera sob arquitetura 100% Local-First e Zero Telemetria, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD — Lei Federal nº 13.709/2018), o Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR — Regulamento (UE) 2016/679), o Marco Civil da Internet (Lei Federal nº 12.965/2014) e a Política 10.5.1 da Microsoft Store.
+
+6.2. Os dados de projetos de engenharia inseridos pelo usuário (incluindo dados que podem constituir dados pessoais, como nome do engenheiro responsável, número de CREA/ART, nome do cliente/proprietário e localização da obra) são processados exclusivamente em memória local (RAM) na máquina do usuário e somente são gravados em disco quando o usuário exporta ou salva arquivos.
+
+6.3. Os dados de faturamento, pagamento, conta e diagnósticos de plataforma decorrentes da aquisição na Microsoft Store são tratados pela Microsoft Corporation na condição de controladora independente, conforme a Declaração de Privacidade da Microsoft (https://www.microsoft.com/pt-br/privacy/privacystatement). O detalhamento completo consta na Política de Privacidade do Eolo Platform (`src/assets/PRIVACY_POLICY/`), acessível na janela "Sobre -> Privacidade".
+
+================================================================================
+7. LIMITAÇÃO DE RESPONSABILIDADE, DIREITO DO CONSUMIDOR (CDC) E FORO
+================================================================================
+
+7.1. Delimitação de Finalidade Acadêmica, Fornecimento As-Is e Isenção de Responsabilidade em Produção: Sem prejuízo das obrigações de prazo de validade técnica e suporte previstas nos artigos 7º e 8º da Lei Federal nº 9.609/1998 e dos direitos legais irrenunciáveis do consumidor, na extensão máxima permitida pelo Código Civil Brasileiro (Lei Federal nº 10.406/2002, arts. 186, 393, 421, 421-A, 422, 927 e 945), pelo CDC (arts. 6º, III, 12 §3º III, 14 §3º II e 31) e pelas convenções internacionais de licenciamento (fornecimento "AS IS" e "WITH ALL FAULTS", UCC § 2-316 e Diretiva UE 2019/770 quanto à conformidade restrita ao fim estritamente acadêmico), o software é fornecido "no estado em que se encontra", EXCLUSIVAMENTE para estudo acadêmico, sem qualquer garantia de exatidão numérica ou adequação a uso produtivo, comercial ou executivo. A utilização real e definitiva em produção ou ambientes de trabalho caracteriza uso indevido e culpa exclusiva do usuário, isentando o autor de qualquer responsabilidade civil ou técnica por sinistros, perdas ou danos decorrentes de decisões baseadas no software sem conferência manual e uso de ferramentas consolidadas. Na hipótese de eventual responsabilização legal residual permitida em lei, a responsabilidade pecuniária agregada do autor fica limitada ao valor efetivamente pago pelo usuário pela aquisição da licença na Microsoft Store.
+
+7.2. Cláusula Expressa de Ressalva dos Direitos do Consumidor (CDC — Lei Federal nº 8.078/1990): NADA NESTE CLC EXCLUI, RESTRINGE OU MODIFICA OS DIREITOS E GARANTIAS LEGAIS IRRENUNCIÁVEIS ASSEGURADOS AO CONSUMIDOR PELO CÓDIGO DE DEFESA DO CONSUMIDOR (LEI FEDERAL Nº 8.078/1990, ESPECIALMENTE OS ARTIGOS 25 E 51, I) OU PELA LEI FEDERAL Nº 9.609/1998 (ARTIGOS 7º E 8º). Nas aquisições realizadas fora do estabelecimento comercial, o direito de arrependimento no prazo de 7 (sete) dias previsto no artigo 49 do CDC é exercido através do procedimento de reembolso da Microsoft Store, sem prejuízo dos direitos assegurados em lei.
+
+7.3. Legislação Aplicável e Foro Competente: Estes termos são regidos pelas leis da República Federativa do Brasil (Lei nº 9.609/1998, Lei nº 9.610/1998, Lei nº 10.406/2002, Lei nº 12.965/2014, Lei nº 13.709/2018 e Lei nº 8.078/1990). Quando configurada relação de consumo regida pelo CDC, fica assegurado o foro do domicílio do consumidor (artigo 101, I, do CDC); nas demais relações profissionais ou empresariais, fica eleito o foro da comarca do domicílio do autor no Brasil, sem prejuízo das normas imperativas de proteção ao consumidor da jurisdição de compra via Microsoft Store.

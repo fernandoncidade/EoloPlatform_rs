@@ -1,0 +1,42 @@
+================================================================================
+HISTÓRIA E CONCEPÇÃO DO PROJETO — EOLO PLATFORM
+================================================================================
+
+Projeto: Eolo Platform (Eolo)
+Versão: 2026.11.8.0
+Data: 8 de novembro de 2026
+Autor e Titular Exclusivo: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Canal Oficial de Suporte: linceu_lighthouse@outlook.com
+Repositório Público (GitHub): https://github.com/fernandoncidade
+
+================================================================================
+1. A MITOLOGIA CLÁSSICA E O GUARDIÃO DOS VENTOS
+================================================================================
+
+Na mitologia clássica greco-romana, imortalizada na "Odisseia" de Homero e na "Eneida" de Virgílio, Éolo (em grego antigo: Αἴολος — Aíolos, cujo nome evoca "o veloz", "o ágil" ou "aquele que se move rapidamente") foi designado por Zeus como o Guardião e Regente dos Ventos (Tamías Anémon). Habitando a ilha de Eólia, cercada por muralhas de bronze e falésias escarpadas, Éolo detinha a missão de conter e governar as forças impetuosas dos quatro ventos cardeais — Bóreas (o vento norte), Zéfiro (o vento oeste), Noto (o vento sul) e Euro (o vento leste) — liberando-os sob medida racional ou mantendo-os encerrados quando sua fúria ameaçava devastar a terra e o mar.
+
+================================================================================
+2. O VENTO NA ENGENHARIA ESTRUTURAL MODERNA (ABNT NBR 6123:2023)
+================================================================================
+
+Na engenharia civil e estrutural contemporânea, a ação do vento representa essa mesma força invisível, dinâmica e implacável. Rajadas turbulentas na camada limite atmosférica, aceleradas sobre morros e taludes (Fator Topográfico S1), moduladas pela rugosidade do terreno e pelas dimensões da edificação (Fator S2), ponderadas pelo risco estatístico e vida útil da estrutura (Fator S3) e amplificadas pelo desprendimento de vórtices nos beirais e pela pressurização interna em galpões (Cpi dominante), figuram historicamente entre as principais causas de sinistros em coberturas metálicas, hangares, marquises e pavilhões pré-moldados no Brasil.
+
+A denominação "Eolo Platform" nasce diretamente do encontro entre o simbolismo clássico do domínio racional sobre os ventos e a Engenharia do Vento codificada na norma brasileira ABNT NBR 6123:2023 ("Forças devidas ao vento em edificações").
+
+================================================================================
+3. OS QUATRO PILARES QUE DEFINEM A ESSÊNCIA DO EOLO PLATFORM
+================================================================================
+
+3.1. Domínio Analítico sobre Forças Turbulentas: Assim como o guardião mitológico media o poder de cada corrente de ar, o Eolo Platform organiza os procedimentos de cálculo da ABNT NBR 6123:2023 em grandezas de engenharia determinísticas e rastreáveis: Velocidade Básica (V0 nas 49 estações da FAB e 27 UFs), Velocidade Característica (Vk), Pressão Dinâmica (q), Coeficientes de Pressão e Forma Externos (Cpe / Ce nas Tabelas 6, 7, 8, 10 e 14 e Figuras 7 e 8) e Coeficientes de Pressão Interna (Cpi no Item 6.3).
+
+3.2. Prevenção do Efeito do "Odre dos Ventos" (Abertura Dominante): No Canto X da Odisseia, Éolo entrega a Ulisses um odre de couro que encerra os ventos contrários; quando a tripulação abre o odre inadvertidamente, a súbita liberação de pressão desencadeia uma tempestade severa. Na engenharia de galpões industriais, esse episódio possui um paralelo aerodinâmico direto: quando um portão ou doca a barlavento se rompe ou permanece aberto durante um vendaval, o fluxo de ar invade o interior da edificação e gera forte sobrepressão interna (como Cpi = +0,80), que se soma à sucção externa da cobertura e pode causar o arrancamento do telhado. A Aba 3 do Eolo Platform foi concebida especificamente para simular aberturas de fachada e evidenciar esse estado crítico de carregamento.
+
+3.3. Tornar Visível o Invisível em 2D/3D na GPU e na Linha de Comando: O vento não é visível a olho nu, mas seus esforços sobre pórticos, terças, longarinas e beirais são determinantes. Por meio do visualizador gráfico 2D/3D acelerado por GPU (`eolo.exe`) e da ferramenta de linha de comando (`eolo-cli.exe`), o software permite inspecionar visualmente os vetores de sobrepressão e sucção em escala e exportar memoriais de cálculo em HTML5 (A4), Markdown e JSON.
+
+3.4. Soberania Local-First e Finalidade Exclusivamente Acadêmica: Construído em Rust pela segurança de memória e desempenho nativo, e operando 100% offline sem telemetria ou nuvem, o Eolo Platform foi concebido exclusivamente como instrumento educacional e de estudo acadêmico (sujeito a possíveis erros). NÃO serve como software definitivo para tomadas de decisão em produção ou ambientes de trabalho; todo cálculo em projetos reais exige conferência manual, validação em ferramentas consolidadas de mercado e supervisão de engenheiro legalmente habilitado no sistema CREA/CONFEA (Leis nº 5.194/1966 e nº 6.496/1977), preservando o autor isento de responsabilidade legal pelo uso indevido em produção (Código Civil arts. 186, 393 e 927; CDC arts. 6º, III, 14 §3º II e 31; convenções internacionais "AS IS").
+
+================================================================================
+4. MARCO DA VERSÃO 2026.11.8.0
+================================================================================
+
+A versão 2026.11.8.0 consolida a suíte didática com 5 abas de estudo, base referencial de estações, visualizador 2D/3D GPU com suporte a temas Claro e Escuro, tradução em tempo real (pt-BR e en-US), CLI dedicada (`eolo-cli.exe`), referências bibliográficas das normas ABNT (sem reprodução de conteúdo protegido) na aba "Avisos" e documentação jurídica alinhada ao modelo de Duplo Licenciamento (GNU AGPLv3 para o código-fonte público e EULA/CLC comerciais para distribuição na Microsoft Store).

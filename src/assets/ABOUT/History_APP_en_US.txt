@@ -1,0 +1,42 @@
+================================================================================
+PROJECT HISTORY AND CONCEPTION — EOLO PLATFORM
+================================================================================
+
+Project: Eolo Platform (Eolo)
+Version: 2026.11.8.0
+Date: November 8, 2026
+Author and Sole Copyright Holder: Fernando Nillsson Cidade (Natural Person, Brazil)
+Official Support Channel: linceu_lighthouse@outlook.com
+Public Repository (GitHub): https://github.com/fernandoncidade
+
+================================================================================
+1. CLASSICAL MYTHOLOGY AND THE KEEPER OF THE WINDS
+================================================================================
+
+In classical Greco-Roman mythology, immortalized in Homer's "Odyssey" and Virgil's "Aeneid", Aeolus (Portuguese/Spanish/Italian: Éolo / Eolo; Ancient Greek: Αἴολος — Aíolos, evoking "the swift", "the nimble", or "the fast-moving") was appointed by Zeus as the Keeper and Ruler of the Winds (Tamías Anémon). Dwelling on the island of Aeolia, encircled by bronze walls and steep cliffs, Aeolus held the duty of restraining and governing the tempestuous forces of the four cardinal winds — Boreas (the north wind), Zephyrus (the west wind), Notus (the south wind), and Eurus (the east wind) — releasing them in measured order or keeping them confined whenever their fury threatened to devastate land and sea.
+
+================================================================================
+2. WIND IN MODERN STRUCTURAL ENGINEERING (ABNT NBR 6123:2023)
+================================================================================
+
+In contemporary civil and structural engineering, wind action represents that same invisible, dynamic, and unforgiving force. Turbulent gusts within the atmospheric boundary layer, accelerated over hills and escarpments (Topographic Factor S1), modulated by terrain roughness and building dimensions (Factor S2), weighted by statistical risk and structural design life (Factor S3), and amplified by vortex shedding along roof eaves and internal pressurization in industrial buildings (dominant Cpi), historically rank among the leading causes of structural failures in steel roofs, hangars, canopies, and precast concrete warehouses in Brazil.
+
+The name "Eolo Platform" arises directly from the convergence between the classical symbol of rational mastery over the winds and the discipline of Wind Engineering codified in Brazilian standard ABNT NBR 6123:2023 ("Wind forces on buildings").
+
+================================================================================
+3. THE FOUR PILLARS THAT DEFINE THE ESSENCE OF EOLO PLATFORM
+================================================================================
+
+3.1. Analytical Mastery over Turbulent Forces: Just as the mythological keeper measured the strength of each air current, Eolo Platform organizes the calculation procedures of ABNT NBR 6123:2023 into deterministic, traceable engineering quantities: Basic Wind Speed (V0 across all 49 FAB meteorological stations and 27 Brazilian states), Characteristic Wind Speed (Vk), Dynamic Pressure (q), External Pressure and Shape Coefficients (Cpe / Ce across Tables 6, 7, 8, 10, and 14 and Figures 7 and 8), and Internal Pressure Coefficients (Cpi under Clause 6.3).
+
+3.2. Preventing the "Bag of Winds" Effect (Dominant Opening): In Book X of the Odyssey, Aeolus gives Odysseus a leather bag confining the adverse winds; when the crew inadvertently opens the bag, the sudden pressure release unleashes a severe storm. In industrial warehouse engineering, this episode has a direct aerodynamic parallel: when a windward gate or loading dock door fails or remains open during a gale, airflow rushes into the building interior and generates strong internal overpressure (such as Cpi = +0.80), which combines with external roof suction and can trigger roof uplift failure. Tab 3 of Eolo Platform was specifically designed to simulate facade openings and highlight this critical loading state.
+
+3.3. Making the Invisible Visible in 2D/3D on the GPU and via Command Line: Wind is invisible to the naked eye, yet its forces on portal frames, purlins, girts, and eaves are decisive. Through its GPU-accelerated 2D/3D graphical viewport (`eolo.exe`) and command-line utility (`eolo-cli.exe`), the software enables engineers to visually inspect scaled overpressure and suction vectors and export calculation reports to HTML5 (A4), Markdown, and JSON.
+
+3.4. Local-First Sovereignty and Exclusively Academic Study Purpose: Built in Rust for memory safety and native performance, and operating 100% offline with zero telemetry or cloud dependency, Eolo Platform was conceived strictly as an educational and academic study tool (subject to potential errors). It DOES NOT serve as definitive software for decision-making in production or workplace environments; any real-world engineering calculation requires manual checking, cross-verification in consolidated market tools, and supervision by a legally qualified engineer registered with CREA/CONFEA (Brazilian Laws No. 5,194/1966 & No. 6,496/1977), exempting the author from legal liability for improper production use (Brazilian Civil Code Arts. 186, 393 & 927; CDC Arts. 6(III), 14(§3)(II) & 31; international "AS IS" conventions).
+
+================================================================================
+4. VERSION 2026.11.8.0 MILESTONE
+================================================================================
+
+Version 2026.11.8.0 consolidates the didactic 5-tab study suite, reference station database, 2D/3D GPU viewport with Light and Dark theme support, real-time bilingual switching (pt-BR and en-US), the dedicated CLI (`eolo-cli.exe`), bibliographic references of ABNT standards (without reproducing protected text) in the "Notices" tab, and legal documentation aligned with the Dual-Licensing model (GNU AGPLv3 for the public source code and commercial EULA/CLC for Microsoft Store distribution).

@@ -1,0 +1,47 @@
+================================================================================
+AVISO DE DIREITOS AUTORAIS (COPYRIGHT) E DE MARCA (™) — EOLO PLATFORM
+================================================================================
+
+Produto: Eolo Platform (Eolo) — Binários: eolo.exe e eolo-cli.exe
+Versão: 2026.11.8.0
+Data: 8 de novembro de 2026
+Autor e Titular Exclusivo: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Canal Oficial de Suporte: linceu_lighthouse@outlook.com
+Repositório Público (GitHub): https://github.com/fernandoncidade
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+================================================================================
+1. TITULARIDADE EXCLUSIVA DE DIREITOS AUTORAIS (COPYRIGHT)
+================================================================================
+
+O software Eolo Platform (incluindo os executáveis `eolo.exe` e `eolo-cli.exe`) e sua documentação original associada são obra intelectual de titularidade exclusiva de Fernando Nillsson Cidade, pessoa física e desenvolvedor independente no Brasil, protegida pela Lei do Software (Lei Federal nº 9.609/1998), pela Lei de Direitos Autorais (Lei Federal nº 9.610/1998) e pela Convenção de Berna para a Proteção das Obras Literárias e Artísticas. A proteção de direitos autorais abrange, sem limitação, o código-fonte original em Rust, a arquitetura do motor analítico segundo a ABNT NBR 6123:2023, a interface gráfica 2D/3D em egui/eframe, os catálogos bilíngues, os ativos visuais e os manuais.
+
+================================================================================
+2. REGIME DE DUPLO LICENCIAMENTO E ACORDO DE CONTRIBUIÇÃO (CLA)
+================================================================================
+
+O projeto Eolo Platform é distribuído sob modelo de Duplo Licenciamento:
+ - O código-fonte público disponibilizado no GitHub é licenciado sob os termos da GNU Affero General Public License versão 3.0 apenas (`AGPL-3.0-only`).
+ - Os binários oficiais compilados e assinados distribuídos comercialmente via Microsoft Store ou mediante autorização comercial direta do autor são licenciados sob o Contrato de Licença de Usuário Final (`src/assets/EULA/`) e os Termos de Licenciamento Comercial (`src/assets/CLC/`).
+ - Contribuições externas ao repositório público requerem a aceitação formal por escrito do Acordo de Licença de Contribuidor (`docs/CLA.md`), nos termos dos artigos 49 e 50 da Lei Federal nº 9.610/1998, preservando a capacidade de duplo licenciamento pelo autor.
+
+================================================================================
+3. AVISO DE MARCA ("EOLO PLATFORM"™ E "EOLO"™)
+================================================================================
+
+As denominações "Eolo Platform"™ e "Eolo"™, bem como o logotipo e a identidade visual associados ao projeto, constituem marcas de produto e software (marcas não registradas identificadas pelo símbolo ™) utilizadas por Fernando Nillsson Cidade para distinguir suas distribuições oficiais. Nos termos da Seção 7(e) da licença GNU AGPLv3 e da legislação aplicável, nem a GNU AGPLv3 nem o EULA comercial concedem qualquer direito de uso das marcas "Eolo Platform"™ ou "Eolo"™ para endossar, promover ou distribuir versões modificadas ou derivações (forks) de terceiros sem autorização prévia e expressa por escrito do autor.
+
+================================================================================
+4. COMPONENTES DE CÓDIGO ABERTO DE TERCEIROS
+================================================================================
+
+As bibliotecas, crates e fontes de terceiros incorporadas ao Eolo Platform (incluindo a biblioteca padrão do Rust, `egui`, `eframe`, `epaint`, `wgpu`, `naga`, `winit`, `rusqlite`, `serde`, `serde_json`, `chrono`, `rfd`, `image`, `windows-sys`, `winres`, fontes `Ubuntu`, `Hack`, `NotoEmoji` e o motor SQLite em domínio público) permanecem sob a titularidade de direitos autorais de seus respectivos autores, sendo utilizadas em estrita conformidade com suas licenças permissivas (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `ISC`, `Zlib`, `BSL-1.0`, `Unicode-3.0`, `OFL-1.1`, `Ubuntu Font Licence 1.0` e Domínio Público), conforme detalhado em `src/assets/NOTICES/` e `src/assets/LICENSES/`.
+
+================================================================================
+5. PROPRIEDADE INTELECTUAL DA ABNT E NATUREZA EXCLUSIVAMENTE ACADÊMICA
+================================================================================
+
+5.1. Direitos Autorais da ABNT (Todos os Direitos Reservados): As Normas Brasileiras referenciadas no projeto (ABNT NBR 6123:2023, NBR 8800:2024 e NBR 6118:2023) são publicações protegidas por direitos autorais de titularidade exclusiva da Associação Brasileira de Normas Técnicas (ABNT — https://www.abnt.org.br). Todos os direitos reservados; nenhuma parte das normas é reproduzida ou utilizada por meio eletrônico no software, limitando-se o Eolo Platform a apresentar suas referências bibliográficas oficiais na aba "Avisos" (Lei nº 9.610/1998, art. 46, III e VIII; Convenção de Berna, art. 10). O Eolo Platform não possui afiliação, patrocínio ou endosso da ABNT, devendo o usuário consultar exemplares oficiais adquiridos junto à entidade.
+
+5.2. Finalidade Exclusivamente Acadêmica, Possíveis Erros e Isenção de Responsabilidade em Produção: O Eolo Platform é uma obra intelectual desenvolvida EXCLUSIVAMENTE PARA FINS DE ESTUDO ACADÊMICO E EDUCACIONAL, sujeita a possíveis erros de cálculo ou implementação, e NÃO serve como software definitivo para tomadas de decisão em produção ou ambientes de trabalho. Todos os resultados DEVEM ser conferidos manualmente e/ou através de ferramentas consolidadas de mercado por profissional habilitado (Leis nº 5.194/1966 e nº 6.496/1977), isentando-se o autor de qualquer responsabilidade legal por uso real ou produtivo fora do escopo acadêmico declarado (Código Civil arts. 186, 393, 421, 927 e 945; CDC arts. 6º, III, 14 §3º II e 31, preservados os direitos irrenunciáveis do consumidor; convenções internacionais "AS IS" e GNU AGPLv3 Seções 15-16).

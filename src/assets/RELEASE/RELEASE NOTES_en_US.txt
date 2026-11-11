@@ -1,0 +1,45 @@
+RELEASE NOTES — EOLO PLATFORM
+=============================
+
+Version: 2026.11.11.0
+Release Date: November 8, 2026
+Author: Fernando Nillsson Cidade (Natural Person, Brazil)
+Official Support Channel: linceu_lighthouse@outlook.com
+Commercial Distribution Channel: Microsoft Store (MSIX Package)
+
+VERSION 2026.11.11.0 HIGHLIGHTS:
+===============================
+
+1. DUAL-LICENSING MODEL & MICROSOFT STORE COMPLIANCE:
+ - Public open-source code on GitHub under the GNU Affero General Public License v3.0 (AGPL-3.0-only), with an additional term under Section 7(e) protecting the "Eolo Platform"™ trademark.
+ - Official Commercial Edition distributed through the Microsoft Store under the End User License Agreement (EULA) and Commercial Licensing Terms (CLC), granting copyleft exemption for corporate operational use.
+ - Formal Contributor License Agreement (CLA) and DCO framework for repository PRs.
+ - Complete alignment with Partner Center MSIX submission guidelines and Microsoft Store Policy 10.5.1 regarding transparent privacy practices.
+
+2. COMPLIANCE WITH BRAZILIAN STATUTORY LAW (LAW NO. 9,609/1998, LGPD & CDC):
+ - Formal establishment of a 12-month technical validity period (Art. 7 of Brazilian Software Law No. 9,609/1998) and guaranteed complementary technical services via maintenance updates and e-mail support within Brazilian territory (Art. 8).
+ - Privacy Policy and terms aligned with Brazilian LGPD (Law No. 13,709/2018), built around a 100% Local-First architecture and zero proprietary telemetry.
+ - Express saving clause for non-waivable statutory consumer protection rights (CDC, Law No. 8,078/1990) and the statutory 7-day right of withdrawal (Art. 49).
+
+3. NATIVE WINDOWS 11 VISUAL & SHELL INTEGRATION:
+ - Native embedding of the official high-resolution icon (eolo.ico) into the PE resources of compiled binaries (eolo.exe and eolo-cli.exe) via winres, ensuring visual recognition in Windows Explorer and on the Desktop.
+ - Explicit AppUserModelID binding ("FernandoCidade.EoloPlatform.NBR6123.2026") guaranteeing dedicated grouping and correct icon display on the Windows 11 taskbar.
+ - Direct icon injection into eframe's ViewportBuilder for title bar and Alt+Tab rendering.
+
+4. DIDACTIC ANALYTICAL WIND ENGINE (REFERENCE: ABNT NBR 6123:2023):
+ - Reference dataset with 49 Brazilian Air Force (FAB) meteorological stations across all 27 Brazilian states (Ref. Table C.1 and Figure 1).
+ - Study routines for topographic factor S1 (Ref. Item 5.2), roughness factor S2 (Ref. Item 5.3 — Categories I to V, Classes A, B, and C), statistical factor S3 (Ref. Item 5.4 — Groups 1 to 5 with 0.92 cladding reduction), speed Vk, and pressure q.
+ - Continuous didactic interpolation of external coefficients (Cpe/Ce — Ref. Tables 6, 7, 8, 10, 14) and internal pressure (Cpi — Ref. Item 6.3, dominant openings, and eave uplift).
+ - Replacement of full standard text display with bibliographic references exclusively in the "Notices" tab (Help > About Eolo Platform...), strictly honoring ABNT copyrights (All rights reserved; reproduction prohibited without written permission).
+
+5. DYNAMIC 5-TAB INTERFACE, LIVE THEMES & RUNTIME BILINGUALISM:
+ - Instant runtime transition between Dark Engineering and Light Technical themes.
+ - Complete live bilingual switching between Portuguese (BR) and English (US) across the UI, 2D/3D GPU viewer, and exportable calculation reports (HTML, Markdown, JSON).
+ - Compact thin-frame responsive toolbar and standardized 9-tab About dialog.
+ - Standalone command-line utility (eolo-cli.exe) for academic study simulations.
+
+6. ACADEMIC STUDY PURPOSE, ERROR RISK & LIABILITY EXEMPTION NOTICE:
+ - Eolo Platform is intended EXCLUSIVELY for academic study and educational purposes.
+ - The software MAY CONTAIN programming or calculation errors and DOES NOT serve as definitive software for decision-making in production or workplace environments.
+ - All results must be verified manually (against official ABNT copies) or through established, consolidated market tools under a licensed engineer's supervision (CREA/CONFEA and ART, Brazilian Laws No. 5,194/1966 & No. 6,496/1977).
+ - Pursuant to the Brazilian Civil Code (Arts. 186, 393, 421, 927 & 945), CDC (Arts. 6(III), 14(§3)(II) & 31, preserving non-waivable rights under Arts. 24, 25, 49 & 51(I) and Law No. 9,609/1998), and international conventions ("AS IS" / "WITH ALL FAULTS", UCC § 2-316 & GNU AGPLv3 Sections 15–16), the author is exempt from legal liability for real-world production use.

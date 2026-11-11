@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "GitHub Discussions / Comunidade"
+    url: "https://github.com/fernandoncidade/EoloPlatform_rs/discussions"
+    about: "Tire dúvidas gerais, compartilhe casos de uso ou inicie discussões técnicas. / Ask general questions, share use cases, or start technical discussions here."
+  - name: "Security Vulnerability Reporting / Relato Privado de Segurança"
+    url: "https://github.com/fernandoncidade/EoloPlatform_rs/security/advisories/new"
+    about: "Reporte vulnerabilidades de segurança de forma privada. / Please report security vulnerabilities privately via GitHub Security Advisories."
+  - name: "Suporte Oficial por E-mail / Official Support E-mail"
+    url: "mailto:linceu_lighthouse@outlook.com"
+    about: "Canal oficial para suporte e garantia técnica de 12 meses (Lei nº 9.609/1998, art. 8º). / Official channel for support and 12-month technical warranty."

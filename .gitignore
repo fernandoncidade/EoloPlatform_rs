@@ -1,0 +1,15 @@
+/target
+/build
+/builds
+/build_*
+*.db
+*.db-wal
+*.db-shm
+.vscode/
+*.exe
+*.pdb
+/repo/EoloPlatform.iss
+/repo/AppxManifest.xml
+/repo/Recursos_EoloPlatform.txt
+/repo/Normas_Tecnicas_NBRs
+/scripts

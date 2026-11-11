@@ -1,0 +1,83 @@
+CONTRATO DE LICENÇA DE USUÁRIO FINAL (EULA) — EOLO PLATFORM
+Versão 2026.11.11.0, 11 de novembro de 2026
+Autor e Desenvolvedor: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Contato Oficial de Suporte: linceu_lighthouse@outlook.com
+Canal Oficial de Distribuição Comercial: Microsoft Store (Pacote MSIX)
+
+================================================================================
+1. MODELO DE DUPLO LICENCIAMENTO (DUAL-LICENSING FRAMEWORK)
+================================================================================
+
+O Eolo Platform ("Software") é distribuído sob modelo de Duplo Licenciamento por Fernando Nillsson Cidade, autor e titular exclusivo dos direitos autorais patrimoniais e morais:
+
+A. EDIÇÃO DE CÓDIGO ABERTO (COMUNITÁRIA — GNU AGPLv3): O código-fonte integral é publicado no GitHub sob a GNU AGPLv3 (AGPL-3.0-only), com termo adicional sob a Seção 7(e) protegendo a marca "Eolo Platform"™. Qualquer pessoa tem a liberdade de estudar, auditar, compilar, modificar e redistribuir o código sob os mesmos termos.
+
+B. EDIÇÃO COMERCIAL E BINÁRIOS OFICIAIS (MICROSOFT STORE): Este EULA aplica-se exclusivamente aos usuários que adquirem ou instalam os binários pré-compilados oficiais (eolo.exe e eolo-cli.exe) na Microsoft Store ou por licença comercial direta do autor, sem restringir quaisquer direitos da GNU AGPLv3 sobre o código público.
+
+================================================================================
+2. CONCESSÃO DE LICENÇA COMERCIAL (MICROSOFT STORE & DIRECT)
+================================================================================
+
+2.1. Ao adquirir ou instalar a versão oficial compilada do Eolo Platform na Microsoft Store, o Licenciador concede a você uma licença comercial, não exclusiva e intransferível de uso pessoal ou corporativo nos dispositivos Windows vinculados à sua conta Microsoft.
+
+2.2. TERMOS ADICIONAIS NO PARTNER CENTER: Este EULA constitui os termos adicionais de licença submetidos na Microsoft Store, complementando e prevalecendo sobre os Termos Padrão de Licença de Aplicativo (SALT).
+
+2.3. ISENÇÃO DE COPYLEFT PARA O BINÁRIO COMERCIAL: Por ser a Edição Comercial licenciada sob este EULA e não sob a GNU AGPLv3, o uso corporativo interno e a execução do executável oficial não geram obrigações de disponibilização de código-fonte da Seção 13 da GNU AGPLv3.
+
+2.4. DIREITO DE ARREPENDIMENTO (CDC, ART. 49): Conforme o art. 49 do Código de Defesa do Consumidor (Lei nº 8.078/1990), o consumidor pode exercer o direito de arrependimento em 7 (sete) dias da aquisição pelo fluxo oficial de reembolso da Microsoft Store.
+
+================================================================================
+3. PRAZO DE VALIDADE TÉCNICA E SUPORTE (LEI Nº 9.609/1998, ARTS. 7º E 8º)
+================================================================================
+
+3.1. PRAZO DE VALIDADE TÉCNICA (ART. 7º DA LEI Nº 9.609/1998): Em cumprimento ao art. 7º da Lei do Software, o prazo de validade técnica desta versão (2026.11.8.0) é fixado em 12 (doze) meses contados da data de publicação oficial (8 de novembro de 2026), ou até versão posterior substitutiva.
+
+3.2. SERVIÇOS TÉCNICOS COMPLEMENTARES (ART. 8º DA LEI Nº 9.609/1998): Durante a validade técnica, o autor assegura serviços técnicos complementares consistentes em atualizações corretivas na Microsoft Store e suporte a incidentes via e-mail oficial (linceu_lighthouse@outlook.com).
+
+3.3. ESCOPO DO SUPORTE: O atendimento opera em regime de melhor esforço razoável por desenvolvedor pessoa física, não incluindo suporte telefônico, acesso remoto, SLA corporativo 24/7 nem consultoria estrutural personalizada.
+
+================================================================================
+4. USO EXCLUSIVO PARA ESTUDO ACADÊMICO, RISCO DE ERROS E DIREITOS DA ABNT
+================================================================================
+
+4.1. FINALIDADE EXCLUSIVAMENTE ACADÊMICA E POSSÍVEIS ERROS: O Software é uma aplicação experimental desenvolvida EXCLUSIVAMENTE PARA FINS DE ESTUDO ACADÊMICO, ENSINO E PESQUISA DIDÁTICA. O Software PODE CONTER ERROS DE PROGRAMAÇÃO, IMPRECISÕES DE CÁLCULO OU SIMPLIFICAÇÕES NORMATIVAS, e NÃO serve como software definitivo para tomadas de decisão em ambientes de produção, projetos executivos, obras civis ou ambientes de trabalho profissionais.
+
+4.2. DEVER DE CONFERÊNCIA MANUAL, FERRAMENTAS CONSOLIDADAS E ART (LEIS Nº 5.194/1966 E Nº 6.496/1977): Todos os resultados obtidos DEVEM ser conferidos manualmente pelo usuário (mediante consulta ao texto oficial da norma) e/ou verificados por meio de outras ferramentas de engenharia mais consolidadas no mercado. O Software NÃO substitui o engenheiro civil/estrutural legalmente habilitado no CREA/CONFEA nem a Anotação de Responsabilidade Técnica (ART/RRT).
+
+4.3. DIREITOS AUTORAIS DA ABNT (TODOS OS DIREITOS RESERVADOS): As normas ABNT (como NBR 6123:2023, NBR 8800:2024 e NBR 6118:2023) são obras protegidas de titularidade exclusiva da Associação Brasileira de Normas Técnicas (ABNT). Todos os direitos reservados; nenhuma parte das normas é reproduzida no Software, exibindo-se apenas suas referências bibliográficas na aba "Avisos" (Lei nº 9.610/1998, art. 46, III e VIII). O Software não possui afiliação ou homologação da ABNT; o usuário deve dispor de exemplar oficial adquirido da norma.
+
+================================================================================
+5. PROPRIEDADE INTELECTUAL, DEPENDÊNCIAS DE TERCEIROS E MARCA
+================================================================================
+
+5.1. TITULARIDADE: O código-fonte, arquitetura analítica, interfaces 2D/3D e documentação são de titularidade de Fernando Nillsson Cidade (Leis nº 9.609/1998 e nº 9.610/1998 e Convenção de Berna).
+
+5.2. MARCAS: "Eolo Platform"™ e "Eolo"™ são marcas do autor. Nenhuma licença de marca é concedida por este EULA ou pela AGPLv3 (Seção 7(e)), sendo vedado seu uso para identificar derivações sem autorização prévia por escrito.
+
+5.3. TERCEIROS: Componentes Rust embutidos (egui, eframe, wgpu, rusqlite, serde, chrono, rfd, image, winres) e SQLite operam sob licenças permissivas (MIT, Apache 2.0, BSD, Zlib, BSL-1.0, Unicode-3.0, Domínio Público), conforme detalhado no arquivo NOTICES.
+
+================================================================================
+6. PRIVACIDADE E PROCESSAMENTO LOCAL-FIRST (LGPD E POLÍTICA STORE 10.5.1)
+================================================================================
+
+6.1. ARQUITETURA LOCAL-FIRST: O software opera 100% offline: parâmetros, dados do projeto e arquivos exportados são processados e armazenados exclusivamente na máquina local do usuário, sem telemetria, rastreamento ou nuvem.
+
+6.2. CONFORMIDADE LGPD E MICROSOFT STORE (POLÍTICA 10.5.1): O tratamento atende à Lei nº 13.709/2018 (LGPD). Operações comerciais na loja são regidas pela Declaração de Privacidade da Microsoft: https://www.microsoft.com/pt-br/privacy/privacystatement.
+
+================================================================================
+7. ISENÇÃO DE GARANTIAS E LIMITAÇÃO DE RESPONSABILIDADE CIVIL (COM CDC)
+================================================================================
+
+7.1. FORNECIMENTO AS-IS E ISENÇÃO DE RESPONSABILIDADE POR USO EM PRODUÇÃO: Na extensão máxima permitida pelo Código Civil Brasileiro (Lei nº 10.406/2002, arts. 186, 393, 421, 421-A, 422, 927 e 945), pelo CDC (arts. 6º, III, 12 §3º III, 14 §3º II e 31) e pelas convenções internacionais ("AS IS" e "WITH ALL FAULTS", UCC § 2-316, GNU AGPLv3 Seções 15-16 e Diretiva UE 2019/770), o Software é disponibilizado "no estado em que se encontra", EXCLUSIVAMENTE para estudo acadêmico, sem garantias de exatidão numérica ou adequação a uso produtivo ou comercial. O emprego do Software para tomadas de decisão definitivas em produção ou ambientes de trabalho caracteriza uso indevido contrário à sua finalidade declarada e culpa exclusiva do usuário, eximindo o Licenciador de qualquer responsabilidade civil ou técnica por perdas, falhas estruturais, lucros cessantes ou danos decorrentes de uso sem conferência manual e validação em ferramentas consolidadas.
+
+7.2. RESSALVA EXPRESSA DOS DIREITOS DO CONSUMIDOR (CDC — LEI Nº 8.078/1990): NADA NESTE CONTRATO EXCLUI, RESTRINGE OU LIMITA OS DIREITOS E GARANTIAS LEGAIS IRRENUNCIÁVEIS DO CONSUMIDOR (LEI Nº 8.078/1990, EM ESPECIAL OS ARTS. 24, 25 E 51, I) OU DA LEI Nº 9.609/1998 (ARTS. 7º E 8º).
+
+7.3. LIMITE INDENIZATÓRIO: Salvo disposições cogentes do CDC, a responsabilidade patrimonial total do Licenciador por perdas comprovadas limita-se estritamente ao valor pago pelo usuário pela licença na Microsoft Store.
+
+================================================================================
+8. LEGISLAÇÃO APLICÁVEL E FORO
+================================================================================
+
+8.1. LEGISLAÇÃO APLICÁVEL: Este contrato é regido pelas leis da República Federativa do Brasil (Leis nº 9.609/1998, nº 9.610/1998, nº 8.078/1990, nº 10.406/2002, nº 12.965/2014 e nº 13.709/2018).
+
+8.2. FORO: Fica eleito o foro da comarca do domicílio do autor, ressalvado o foro de domicílio do consumidor (art. 101, I, do CDC) e normas cogentes de proteção ao consumidor da jurisdição da Microsoft Store.

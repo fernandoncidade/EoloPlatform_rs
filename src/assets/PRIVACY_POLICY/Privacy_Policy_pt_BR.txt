@@ -1,0 +1,139 @@
+POLÍTICA DE PRIVACIDADE — EOLO PLATFORM
+Última atualização: 11 de novembro de 2026
+Versão: 2026.11.11.0
+Controlador dos Dados: Fernando Nillsson Cidade (Pessoa Física, Brasil)
+Contato Oficial de Privacidade e Suporte: linceu_lighthouse@outlook.com
+
+================================================================================
+1. IDENTIFICAÇÃO DO CONTROLADOR, FINALIDADE ACADÊMICA E FILOSOFIA LOCAL-FIRST
+================================================================================
+
+Esta Política de Privacidade disciplina o tratamento de dados no uso do Eolo Platform ("Software" ou "Aplicação"), em estrita conformidade com a Lei Geral de Proteção de Dados Pessoais do Brasil (LGPD — Lei Federal nº 13.709/2018), com o Marco Civil da Internet (Lei nº 12.965/2014), com o Regulamento Geral sobre a Proteção de Dados da União Europeia (GDPR — Regulamento UE 2016/679) e com a Política 10.5.1 da Microsoft Store para aplicativos desktop Windows.
+
+ESCOPO EXCLUSIVO DE ESTUDO ACADÊMICO E RISCO DE ERROS:
+O Eolo Platform é uma aplicação desktop desenvolvida EXCLUSIVAMENTE PARA FINS DE ESTUDO ACADÊMICO, ENSINO E SIMULAÇÃO DIDÁTICA. O Software pode conter erros de cálculo ou programação e NÃO serve como software definitivo para tomadas de decisão em produção, obras civis ou ambientes profissionais de trabalho, sendo obrigatória a conferência manual de todos os resultados (em exemplar oficial da norma) ou por meio de ferramentas consolidadas de mercado. Nos termos do Código Civil Brasileiro (arts. 186, 393, 421, 927 e 945), do CDC (arts. 6º, III, 14 §3º II e 31, preservados os direitos irrenunciáveis dos arts. 24, 25, 49 e 51, I e da Lei nº 9.609/1998) e das convenções internacionais ("AS IS" / "WITH ALL FAULTS"), o controlador e autor fica isento de responsabilidade legal pelo uso real e definitivo dos resultados em produção fora da finalidade acadêmica declarada.
+
+O Eolo Platform foi concebido sob o paradigma estrito de Privacidade Local (Local-First) e Zero Telemetria. As simulações acadêmicas, parâmetros didáticos e relatórios de estudo são processados exclusivamente na máquina local do usuário. O Software não mantém servidores próprios na nuvem, não realiza rastreamento comportamental e não transmite dados para o desenvolvedor ou terceiros.
+
+================================================================================
+2. CATEGORIAS DE DADOS PROCESSADAS LOCALMENTE NO APLICATIVO
+================================================================================
+
+Para o dimensionamento das ações de vento e a geração dos relatórios formais de engenharia, o Software processa na memória volátil (RAM) as informações inseridas ativamente pelo usuário nas abas de configuração e no diálogo de preferências:
+
+a) DADOS DE IDENTIFICAÇÃO TÉCNICA E DO PROJETO:
+ - Título e identificação da obra;
+ - Nome do engenheiro ou responsável técnico;
+ - Número de registro profissional e ART/RRT (CREA/CAU);
+ - Nome do cliente ou empresa contratante;
+ - Cidade e Estado (UF) da implantação da edificação.
+
+b) PARÂMETROS ESTRUTURAIS, GEOMÉTRICOS E AERODINÂMICOS:
+ - Dimensões do galpão (vão livre b, comprimento a, pé-direito h, inclinação θ);
+ - Velocidade básica do vento (V0), fatores topográfico (S1), rugosidade (S2) e estatístico (S3);
+ - Áreas de aberturas, permeabilidade e coeficientes aerodinâmicos (Cpe, Cpi).
+
+AVISO SOBRE DADOS DE TERCEIROS:
+O nome do engenheiro, o número de registro CREA/ART e o nome do cliente inseridos podem constituir dados pessoais do próprio usuário ou de terceiros perante a LGPD. Tais informações são inseridas por escolha exclusiva do usuário, permanecem restritas à memória local da aplicação e são impressas apenas nos relatórios e arquivos que o usuário decide exportar deliberadamente.
+
+================================================================================
+3. ARMAZENAMENTO LOCAL DE ARQUIVOS E CONFIGURAÇÕES DO INSTALADOR
+================================================================================
+
+3.1. ARMAZENAMENTO DE PROJETOS E RELATÓRIOS:
+Na versão 2026.11.8.0, o Software não realiza gravações automáticas ocultas. A gravação em disco ocorre unicamente quando o usuário aciona os comandos "Salvar Projeto (.json)", exporta o Memorial de Cálculo em HTML, Markdown ou JSON, ou define o caminho de saída no utilitário de terminal (eolo-cli --output). Os arquivos são gravados estritamente na pasta e unidade escolhidas pelo usuário.
+
+3.2. CONFIGURAÇÃO DE IDIOMA DO INSTALADOR DIRETO:
+Caso o aplicativo seja instalado por meio do instalador executável direto (Inno Setup), o assistente grava um arquivo de configuração local contendo exclusivamente o código do idioma selecionado ("pt_BR" ou "en_US") no caminho %APPDATA%\EoloPlatform\language_config.json. Na desinstalação, esse diretório e o diretório local correspondente (%LOCALAPPDATA%\EoloPlatform) são removidos.
+
+3.3. BANCO DE DADOS LOCAL FUTURO:
+O código do aplicativo contempla suporte estruturado para banco SQLite local em %APPDATA%\EoloPlatform\eolo_data.db. Caso ativado, o banco opera em modo estritamente local e desconectado, sob custódia e controle exclusivo do usuário.
+
+================================================================================
+4. HIPERLINKS EXTERNOS NA INTERFACE DO USUÁRIO
+================================================================================
+
+A janela "Sobre o Eolo Platform" (menu Ajuda) disponibiliza atalhos de hiperlink para os sítios oficiais dos componentes de código aberto e normas pertinentes:
+ - Linguagem Rust (https://www.rust-lang.org)
+ - egui & eframe (https://github.com/emilk/egui)
+ - SQLite (https://www.sqlite.org) e rusqlite (https://github.com/rusqlite/rusqlite)
+ - Serde (https://serde.rs) e rfd (https://github.com/PolyMeilex/rfd)
+ - ABNT (https://www.abnt.org.br)
+
+Ao clicar em um hiperlink, o Software aciona o navegador padrão do sistema operacional. O Software não transmite dados contextuais nem parâmetros ao destino. A navegação passa a ser regida com exclusividade pelas políticas de privacidade dos respectivos sítios externos visitados.
+
+================================================================================
+5. COMUNICAÇÕES DE SUPORTE TÉCNICO VIA E-MAIL
+================================================================================
+
+5.1. DADOS COLETADOS NO SUPORTE:
+Quando o usuário entra em contato com o suporte oficial através do endereço linceu_lighthouse@outlook.com, o desenvolvedor recebe e processa o endereço de e-mail do remetente, o nome eventualmente informado no cabeçalho e o conteúdo da mensagem, incluindo eventuais anexos ou relatórios encaminhados.
+
+5.2. FINALIDADE E BASES LEGAIS (LGPD, ART. 7º, V E IX):
+O tratamento desses dados destina-se estritamente a:
+ - a) Esclarecer dúvidas técnicas, prestar suporte operacional e diagnosticar falhas;
+ - b) Cumprir os deveres de assistência técnica durante o prazo de validade técnica da versão comercial, nos termos do art. 8º da Lei nº 9.609/1998;
+ - c) Exercício regular de direitos em processos administrativos ou judiciais.
+Bases legais na LGPD: execução de contrato ou procedimentos preliminares (art. 7º, V) e legítimo interesse do controlador (art. 7º, IX).
+
+5.3. RETENÇÃO E NÃO COMPARTILHAMENTO:
+Os e-mails são arquivados apenas pelo período razoavelmente necessário para conclusão do atendimento e atendimento a prazos prescricionais legais. O desenvolvedor não comercializa, não cede e não compartilha dados de suporte com terceiros para fins de marketing ou publicidade.
+
+================================================================================
+6. DISTRIBUIÇÃO COMERCIAL VIA MICROSOFT STORE E TELEMETRIA DE PLATAFORMA
+================================================================================
+
+6.1. OPERAÇÃO DE COBRANÇA E CONTA PELA MICROSOFT:
+Para as cópias adquiridas na Microsoft Store, todas as transações financeiras, cobranças, meios de pagamento, dados de faturamento e autenticação de contas são operados diretamente pela Microsoft Corporation, na qualidade de controladora independente, segundo os Termos de Venda da Microsoft Store e a Declaração de Privacidade da Microsoft: https://www.microsoft.com/pt-br/privacy/privacystatement
+
+6.2. RELATÓRIOS AGREGADOS DE DESENVOLVEDOR NO PARTNER CENTER:
+O desenvolvedor tem acesso unicamente a relatórios agregados e anonimizados fornecidos pelo Microsoft Partner Center (tais como número de aquisições por país e relatórios consolidados de falhas de travamento/crash do sistema operacional). O binário do Eolo Platform não inclui kits de desenvolvimento de telemetria (SDKs de analytics) de terceiros.
+
+================================================================================
+7. INTERAÇÕES NO REPOSITÓRIO PÚBLICO DO GITHUB
+================================================================================
+
+O código-fonte público do Eolo Platform é hospedado na plataforma GitHub (https://github.com/fernandoncidade). Ao submeter problemas (Issues), solicitações de integração (Pull Requests) ou mensagens nos fóruns do repositório, o usuário deve estar ciente de que tais conteúdos são públicos por natureza e regidos pela Política de Privacidade do GitHub. Recomenda-se enfaticamente não incluir dados pessoais, dados confidenciais de clientes ou relatórios restritos em postagens públicas.
+
+================================================================================
+8. MEDIDAS DE SEGURANÇA E CONTROLE INTEGRAL DO USUÁRIO
+================================================================================
+
+8.1. SEGURANÇA NA ESTAÇÃO DO USUÁRIO (LGPD, ART. 46):
+A segurança dos projetos e arquivos de engenharia gerados pelo Software reside na própria estação de trabalho do usuário. Recomenda-se a adoção de boas práticas de segurança da informação, tais como criptografia de disco (BitLocker), controle de acesso por senha, antivírus atualizado e rotinas periódicas de backup.
+
+8.2. CONTROLE TOTAL DE EXCLUSÃO:
+O usuário detém a prerrogativa soberana de excluir a qualquer momento qualquer arquivo de projeto (.json), memorial (.html, .md) ou configuração de idioma gerada pelo Software, bem como desinstalar integralmente a aplicação por meio do painel "Aplicativos Instalados" do Windows 11.
+
+================================================================================
+9. DIREITOS DO TITULAR DOS DADOS (LGPD, ART. 18 E GDPR)
+================================================================================
+
+Na condição de titular de dados pessoais perante as comunicações diretas de suporte, o usuário pode exercer perante o controlador, a qualquer momento e mediante requisição expressa enviada para linceu_lighthouse@outlook.com, os seguintes direitos:
+ - I. Confirmação da existência de tratamento;
+ - II. Acesso aos dados arquivados relativos aos seus atendimentos;
+ - III. Correção de dados incompletos, inexatos ou desatualizados;
+ - IV. Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade com a legislação;
+ - V. Eliminação dos dados pessoais tratados com base em consentimento;
+ - VI. Informação sobre as entidades com as quais o controlador compartilhou dados (ressaltando-se a ausência de compartilhamento comercial pelo desenvolvedor);
+ - VII. Revogação de consentimentos eventualmente concedidos.
+
+O titular tem ainda o direito de apresentar petição perante a Autoridade Nacional de Proteção de Dados (ANPD) do Brasil ou autoridade supervisora europeia competente.
+
+================================================================================
+10. PRIVACIDADE DE CRIANÇAS E ADOLESCENTES (LGPD, ART. 14) E USO ACADÊMICO
+================================================================================
+
+O Eolo Platform é um software didático de estudo acadêmico na área de engenharia civil e cálculo estrutural, não sendo direcionado nem destinado ao público infantil ou a crianças menores de 13 anos. O controlador não coleta intencionalmente dados pessoais de crianças ou adolescentes. Os dados de projeto ou identificação inseridos em ambiente local servem apenas a simulações de estudo acadêmico, reiterando-se que a aplicação pode conter erros e exige conferência manual ou por softwares consolidados antes de qualquer aplicação prática por profissional habilitado (CREA/ART).
+
+================================================================================
+11. ATUALIZAÇÕES DESTA POLÍTICA E CANAL DE CONTATO
+================================================================================
+
+Esta Política de Privacidade pode ser revisada periodicamente para refletir aprimoramentos técnicos ou alterações legislativas. Quaisquer atualizações serão consignadas na documentação do Software e na aba "Privacidade" da janela Sobre.
+
+Dúvidas, esclarecimentos, sugestões ou solicitações relativas à privacidade e proteção de dados pessoais devem ser encaminhadas ao canal oficial:
+
+Fernando Nillsson Cidade
+E-mail Oficial: linceu_lighthouse@outlook.com
+Repositório Oficial: https://github.com/fernandoncidade

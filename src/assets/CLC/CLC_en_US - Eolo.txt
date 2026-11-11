@@ -1,0 +1,85 @@
+================================================================================
+COMMERCIAL LICENSING AND DISTRIBUTION TERMS (CLC) — EOLO PLATFORM
+================================================================================
+
+Product: Eolo Platform (Eolo) — Binaries: eolo.exe and eolo-cli.exe
+Version 2026.11.11.0, November 11, 2026
+Author and Sole Copyright Holder: Fernando Nillsson Cidade (Independent Developer, Natural Person, Brazil)
+Official Support Channel: linceu_lighthouse@outlook.com
+Public Repository (GitHub): https://github.com/fernandoncidade
+Primary Commercial Distribution Channel: Microsoft Store (MSIX Format)
+AppUserModelID: FernandoCidade.EoloPlatform.NBR6123.2026
+
+================================================================================
+1. AUTHORSHIP AND INDEPENDENT NATURAL-PERSON DEVELOPER STATUS
+================================================================================
+
+1.1. The Eolo Platform software ("Eolo", comprising the executables `eolo.exe` and `eolo-cli.exe` and their associated documentation) is an original intellectual work exclusively owned by Fernando Nillsson Cidade, a natural person (pessoa física) and independent software developer in Brazil, protected by the Brazilian Software Law (Federal Law No. 9,609/1998), the Brazilian Copyright Law (Federal Law No. 9,610/1998), and international copyright treaties (Berne Convention).
+
+1.2. The developer operates strictly as an independent natural person (pessoa física), not constituting a financial institution, banking entity, or commercial credit corporation. The author does not perform direct parallel billing via PIX, bank slips (boletos), or charges outside official channels, nor does the author directly charge late-payment interest (juros de mora) or financial penalties (multas).
+
+1.3. The names "Eolo Platform"™ and "Eolo"™ constitute product and software trademarks used by the author to identify his official distributions.
+
+================================================================================
+2. COMMERCIAL DISTRIBUTION VIA MICROSOFT STORE AND MSIX SUBMISSION
+================================================================================
+
+2.1. The official commercialization of compiled, signed versions (executable binaries) of Eolo Platform is conducted primarily through the Microsoft Store digital platform in MSIX package format, in accordance with the official Microsoft Partner Center submission workflow (https://learn.microsoft.com/pt-br/windows/apps/publish/publish-your-app/msix/create-app-submission).
+
+2.2. Payment processing, collection of applicable taxes, currency conversion, receipt issuance, refund processing, Microsoft account authentication, and management of installation rights (license entitlement) across compatible Windows devices linked to the purchaser's account are operated directly by Microsoft Corporation pursuant to the Microsoft Store Terms of Sale.
+
+2.3. In Microsoft Partner Center, the Eolo Platform End User License Agreement (EULA) (`src/assets/EULA/`) is submitted in the Store listing's "Additional license terms" field, governing the commercial binary in conjunction with this CLC in replacement of the default Standard Application License Terms (SALT).
+
+2.4. The standalone installer built via Inno Setup (`repo/EoloPlatform.iss`) is intended exclusively for direct distribution authorized by the author outside the Microsoft Store; deliveries carried out through the Microsoft Store use MSIX packages exclusively.
+
+================================================================================
+3. COEXISTENCE WITH THE OPEN-SOURCE EDITION (GNU AGPLv3) AND CLA
+================================================================================
+
+3.1. Commercial binary distribution on the Microsoft Store coexists transparently with the public availability of the Eolo Platform source code on GitHub (https://github.com/fernandoncidade) under the GNU Affero General Public License version 3.0 only (`AGPL-3.0-only`).
+
+3.2. Because the official commercial binary is licensed directly by the sole copyright holder under the commercial EULA and this CLC rather than under the GNU AGPLv3, the reciprocity and copyleft obligations of the GNU AGPLv3 (including Section 13 thereof) do not arise from internal use of the commercial binary.
+
+3.3. Users and developers who choose to obtain, study, modify, compile, or redistribute the public source code from the GitHub repository remain governed exclusively by the GNU AGPLv3; nothing in this CLC or in the EULA restricts, diminishes, or revokes the freedoms granted by the GNU AGPLv3 over the public source code.
+
+3.4. The Dual-Licensing model is enabled by the fact that the author holds full copyright ownership over the codebase and requires, for external contributions, execution of the Contributor License Agreement (`docs/CLA.md`), entered into in writing pursuant to Articles 49 and 50 of Brazilian Federal Law No. 9,610/1998, whereby the contributor retains copyright in their contribution and grants the author a non-exclusive, irrevocable, worldwide, royalty-free license with the right to sublicense and relicense under both the GNU AGPLv3 and commercial terms.
+
+================================================================================
+4. TECHNICAL VALIDITY PERIOD (LAW NO. 9,609/1998, ART. 7) AND SUPPORT (ART. 8)
+================================================================================
+
+4.1. Technical Validity Period (Article 7 of Law No. 9,609/1998): In strict compliance with Article 7 of Brazilian Federal Law No. 9,609/1998, the technical validity period (prazo de validade técnica) of commercial version `2026.11.8.0` (released on November 8, 2026) is 12 (twelve) months from the version's release date, or until a subsequent replacement version is made available, whichever is longer.
+
+4.2. Complementary Technical Services (Article 8 of Law No. 9,609/1998): Pursuant to Article 8 of Brazilian Federal Law No. 9,609/1998, during the technical validity period of the version, the author provides the user with complementary technical services for the proper operation of the software, consisting of: (a) corrective maintenance delivered through version updates made available via the Microsoft Store or the official repository; and (b) technical support regarding installation and operation of the software, provided on a reasonable best-effort basis exclusively through the official e-mail address: linceu_lighthouse@outlook.com.
+
+4.3. Express Service Exclusions: Because the software is maintained individually by a natural-person developer, technical support does NOT include: (a) support via telephone, live chat, or instant-messaging applications; (b) remote access to user computers, workstations, or servers; (c) a continuous 24/7 corporate Service Level Agreement (SLA); or (d) structural engineering consulting, third-party design review, or issuance of an Anotação de Responsabilidade Técnica (ART).
+
+================================================================================
+5. EXCLUSIVELY ACADEMIC PURPOSE, ERROR RISK & ABNT INDEPENDENCE
+================================================================================
+
+5.1. Strictly Academic Study Application & Risk of Errors: Eolo Platform is an educational software tool developed EXCLUSIVELY FOR ACADEMIC STUDY, LEARNING, AND DIDACTIC SIMULATION using ABNT NBR 6123:2023 as a bibliographic reference. The software MAY CONTAIN PROGRAMMING BUGS, NUMERICAL INACCURACIES, OR SIMPLIFICATIONS, is NOT certified or homologated by public agencies, and does NOT implement structural member sizing (such as ABNT NBR 8800 or ABNT NBR 6118).
+
+5.2. Unfit for Production & Mandatory Manual / Consolidated-Tool Verification: The software DOES NOT serve as definitive software for decision-making in production environments, construction designs, or professional workplaces. All results MUST be verified manually by the user (against an officially acquired standard copy) and/or cross-checked with established, consolidated market software. Pursuant to Brazilian Federal Law No. 5,194/1966 and Federal Law No. 6,496/1977, the software does NOT replace a legally qualified engineer registered with CREA/CONFEA, independent calculation checks, or the mandatory Technical Responsibility Record (ART).
+
+5.3. ABNT Copyrights (All Rights Reserved): ABNT technical standards (such as ABNT NBR 6123:2023, NBR 8800:2024, and NBR 6118:2023) are copyrighted publications exclusively owned by Associação Brasileira de Normas Técnicas (ABNT — https://www.abnt.org.br). All rights reserved; no part of these standards is reproduced in this software, and only bibliographic references are listed in the "Notices" tab (Law No. 9,610/1998, Art. 46, III & VIII; Berne Convention Art. 10). Eolo Platform has no affiliation with, sponsorship from, or endorsement by ABNT, and users must purchase and consult an official copy of the standard.
+
+================================================================================
+6. PERSONAL DATA PROTECTION AND PRIVACY (LGPD, GDPR, AND MICROSOFT STORE)
+================================================================================
+
+6.1. Eolo Platform operates under a 100% Local-First and Zero-Telemetry architecture, in compliance with the Brazilian General Data Protection Law (LGPD — Federal Law No. 13,709/2018), the European Union General Data Protection Regulation (GDPR — Regulation (EU) 2016/679), the Brazilian Civil Rights Framework for the Internet (Marco Civil da Internet — Federal Law No. 12,965/2014), and Microsoft Store Policy 10.5.1.
+
+6.2. Engineering project data entered by the user (including data that may constitute personal data, such as the responsible engineer's name, CREA/ART registration number, client/owner name, and project site location) is processed exclusively in local memory (RAM) on the user's machine and is written to disk only when the user exports or saves files.
+
+6.3. Billing, payment, account, and platform diagnostic data arising from acquisition on the Microsoft Store are processed by Microsoft Corporation as an independent controller in accordance with the Microsoft Privacy Statement (https://www.microsoft.com/pt-br/privacy/privacystatement). Full details are set forth in the Eolo Platform Privacy Policy (`src/assets/PRIVACY_POLICY/`), accessible via the "About -> Privacy" tab.
+
+================================================================================
+7. LIMITATION OF LIABILITY, CONSUMER PROTECTION (CDC), AND GOVERNING LAW
+================================================================================
+
+7.1. Academic Scope Delimitation, As-Is Provision & Production Liability Exemption: Without prejudice to the technical validity period and support obligations set forth in Articles 7 and 8 of Brazilian Federal Law No. 9,609/1998 and non-waivable statutory consumer rights, to the maximum extent permitted by the Brazilian Civil Code (Federal Law No. 10,406/2002, Arts. 186, 393, 421, 421-A, 422, 927, and 945), the Brazilian CDC (Arts. 6(III), 12(§3)(III), 14(§3)(II), and 31), and international software licensing conventions ("AS IS" and "WITH ALL FAULTS" under UCC § 2-316 and EU Directive 2019/770 restricting intended fitness to academic study), the software is provided "as-is", EXCLUSIVELY for academic study, with no warranty of numerical accuracy or fitness for production, commercial, or real-world engineering decisions. Any definitive use in production or workplace environments constitutes improper use outside the declared scope and sole fault of the user, exempting the author from civil or technical liability for failures, losses, or damages arising from decisions made without manual verification and consolidated market tools. Subject to mandatory statutory law, the author's total aggregate pecuniary liability for any proven direct damages is strictly limited to the amount actually paid by the user for the license in the Microsoft Store.
+
+7.2. Express Saving Clause for Consumer Rights (CDC — Federal Law No. 8,078/1990): NOTHING IN THIS CLC EXCLUDES, RESTRICTS, OR MODIFIES NON-WAIVABLE STATUTORY RIGHTS AND WARRANTIES GUARANTEED TO CONSUMERS BY THE BRAZILIAN CONSUMER DEFENSE CODE (FEDERAL LAW NO. 8,078/1990, PARTICULARLY ARTICLES 25 AND 51, I) OR BY FEDERAL LAW NO. 9,609/1998 (ARTICLES 7 AND 8). For purchases made outside a physical commercial establishment, the 7-day statutory right of withdrawal under Article 49 of the CDC is exercised through the Microsoft Store refund procedure, without prejudice to rights guaranteed by law.
+
+7.3. Governing Law and Competent Forum: These terms are governed by the laws of the Federative Republic of Brazil (Law No. 9,609/1998, Law No. 9,610/1998, Law No. 10,406/2002, Law No. 12,965/2014, Law No. 13,709/2018, and Law No. 8,078/1990). Where a consumer relationship governed by the CDC exists, the court of the consumer's domicile is guaranteed jurisdiction (Article 101, I, of the CDC); in all other professional or business relationships, the parties elect the courts of the judicial district of the author's domicile in Brazil, without prejudice to mandatory consumer protection rules of the jurisdiction of purchase via the Microsoft Store.
